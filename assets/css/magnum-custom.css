@@ -29,6 +29,31 @@ h1,h2,h3,h4,h5,h6,p{
   text-align: right;
   color: white;
 }
+/* navmenu */
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(0, 0, 0);
+}
+a.nav-link{
+  font-weight: 500 !important;
+}
+a.nav-link:hover {
+    color: #3329b1 !important;
+}
+.login-popper{
+  line-height: 24px;
+  list-style: none;
+  padding-left: 0;
+  width: 63px;
+  font-size: 14px;
+  height: 30px;
+}
+.loggedin-popper{
+  line-height: 24px;
+  list-style: none;
+  padding-left: 0;
+  font-size: 14px;
+  height: 55px;
+}
 
 .inline{
   display: inline;
@@ -58,9 +83,29 @@ section{
 }
 #main_carousel img{
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   object-fit: cover;
   align-self: center;
+}
+#main_carousel .slider-text{
+  z-index: 1;
+  position: absolute;
+  bottom: 30%;
+  right: 10%;
+  text-align: center;
+  width: 40%;
+}
+#main_carousel .slider-text h1{
+font-size: 5vw;
+font-weight: 800;
+text-shadow: 1px 2px 0px #d5d5d5, 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+#main_carousel .slider-text p{
+  font-size: 2vw;
+}
+#main_carousel .slider-text button{
+  border-radius: 0px;
+  background-color: black;
 }
 #our_product .container-head h1 {
     font-weight: 800;

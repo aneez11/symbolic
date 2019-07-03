@@ -8,7 +8,11 @@
 <link rel="stylesheet" href="assets/css/bootstrap.css">
 <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
 <link rel="stylesheet" href="assets/css/bootstrap-reboot.css">
+<link rel="stylesheet" href="assets/css/animate.css">
 <link rel="stylesheet" href="assets/css/magnum-custom.css">
+<script src="assets/js/jquery.js" charset="utf-8"></script>
+<script src="assets/js/popper.min.js" charset="utf-8"></script>
+
 <body>
   <?php include('navmenu.php') ?>
 <div class="symbolic-body">

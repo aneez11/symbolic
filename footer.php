@@ -68,8 +68,8 @@ footer{
   <div class="container">
     <div class="footer">
       <div class="row footer-row">
-        <div class="col-half">
-          Logo is here
+        <div class="col-half p-0">
+          <img style="width:100%;" src="assets/images/logo2.jpg" alt="">
         </div>
         <div class="col-half b-l">
           <h6>Men's Collection</h6>
@@ -122,10 +122,8 @@ footer{
 </div>
 </div>
 
-<script src="assets/js/jquery.js" charset="utf-8"></script>
 <script src="assets/js/bootstrap.js" charset="utf-8"></script>
 <script src="assets/js/bootstrap.bundle.js" charset="utf-8"></script>
-<script src="assets/js/popper.min.js" charset="utf-8"></script>
 <script src="assets/js/magnum-custom.js" charset="utf-8"></script>
 
 </body>

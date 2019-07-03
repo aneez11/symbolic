@@ -8,12 +8,25 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="assets/images/1.jpg" class="d-block w-100" alt="...">
+          <div class="slider-text">
+            <h1 class="retroshadow">Beat the Chill</h1>
+            <p class="">with this new Arrival</p>
+            <button type="button" class="btn btn-dark">Shop Now</button>
+          </div>
         </div>
         <div class="carousel-item">
           <img src="assets/images/2.jpg" class="d-block w-100" alt="...">
+          <div class="slider-text">
+            <h1>Chill Pill</h1>
+            <button type="button" class="btn btn-dark">Shop Now</button>
+          </div>
         </div>
         <div class="carousel-item">
           <img src="assets/images/3.jpg" class="d-block w-100" alt="...">
+          <div class="slider-text">
+            <h1>Aww NIllll</h1>
+            <button type="button" class="btn btn-dark">Shop Now</button>
+          </div>
         </div>
       </div>
     </div>
@@ -358,7 +371,7 @@
     </div>
 
     <div class="row text-center container-body">
-      <div class="col-sm-3 service">
+      <div class="col-md-3 col-sm-6 service">
         <div class="circle logo">
           <i class="fas fa-tshirt"></i>
         </div>
@@ -367,7 +380,7 @@
           <p>Credibly pontficated highly efficient manufactured products.</p>
         </div>
       </div>
-      <div class="col-sm-3 service">
+      <div class="col-md-3 col-sm-6 service">
         <div class="circle logo">
           <i class="fas fa-truck"></i>
         </div>
@@ -376,7 +389,7 @@
           <p>Nanoetechnology immersion along the highway.</p>
         </div>
       </div>
-      <div class="col-sm-3 service">
+      <div class="col-md-3 col-sm-6 service">
         <div class="circle logo">
           <i class="fas fa-money-bill-wave"></i>
         </div>
@@ -385,7 +398,7 @@
           <p>Taking seamless key performance indicators offline.</p>
         </div>
       </div>
-      <div class="col-sm-3 service">
+      <div class="col-md-3 col-sm-6 service">
         <div class="circle logo">
           <i class="fas fa-percent"></i>
         </div>
