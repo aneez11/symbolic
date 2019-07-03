@@ -1,0 +1,467 @@
+<?php include('header.php') ?>
+<style media="screen">
+
+</style>
+<section id="main_carousel">
+  <div class="container-fluid p-0 m-0">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="our_product">
+  <div class="container">
+    <div class="container-head text-center">
+      <h1>Checkout Our Products</h1>
+    </div>
+    <ul class="nav nav-tabs" id="" role="tablist" style="margin-bottom:10px;">
+      <li class="nav-item">
+        <a class="nav-link active" id="product-tab" data-toggle="tab" href="#product" role="tab" aria-controls="product" aria-selected="true">Check Our Products</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="trends-tab" data-toggle="tab" href="#trends" role="tab" aria-controls="trends" aria-selected="false">Latest Trends</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="best-tab" data-toggle="tab" href="#best" role="tab" aria-controls="best" aria-selected="false">Best Seller</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="product" role="tabpanel" aria-labelledby="product-tab">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="cat-box text-center">
+              <div class="box-img">
+                <img src="assets/images/dummy/boots.png" alt="">
+              </div>
+              <div class="box-footer">
+                <h4>Royal Boots</h4>
+                <p>BOOT SHOES</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="cat-box text-center">
+              <div class="box-img">
+                <img src="assets/images/dummy/onepiece.png" alt="">
+              </div>
+              <div class="box-footer">
+                <h4>One Piece</h4>
+                <p>ONE PIECE BLUE</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="cat-box-l" href="#">
+              <div class="row">
+                <div class="col-4 box-img">
+                  <img src="assets/images/dummy/lena.png" alt="">
+                </div>
+                <div class="col-8 box-footer my-auto p-2">
+                  <h6>DUCHANNES BLACK</h6>
+                  <h4>Lena Duchannes Dress</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="cat-box text-center">
+              <div class="box-img">
+                <img src="assets/images/dummy/top.png" alt="">
+              </div>
+              <div class="box-footer">
+                <h4>Crop Top Sweater</h4>
+                <p>BLUE CROP TOP SWEATER</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="cat-box text-center">
+              <div class="box-img">
+                <img src="assets/images/dummy/shiirt.png" alt="">
+              </div>
+              <div class="box-footer">
+                <h4>Khaki Jacquard Shirt</h4>
+                <p>MEN BLUE SHIRT</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="cat-box text-center">
+              <div class="box-img">
+                <img src="assets/images/dummy/jeans.png" alt="">
+              </div>
+              <div class="box-footer">
+                <h4>Jeans Pant</h4>
+                <p>WASHABLE JEANS PANT</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="cat-box text-center">
+              <div class="box-img">
+                <img src="assets/images/dummy/shoe.png" alt="">
+              </div>
+              <div class="box-footer">
+                <h4>Blue Boxer Shoes</h4>
+                <p>JOOTIYAPA BLUE BOXER SHOES</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="trends" role="tabpanel" aria-labelledby="trends-tab">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="cat-box text-center">
+              <div class="box-img">
+                <img src="assets/images/dummy/boots.png" alt="">
+              </div>
+              <div class="box-footer">
+                <h4>Royal Boots2</h4>
+                <p>BOOT SHOES</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="cat-box text-center">
+              <div class="box-img">
+                <img src="assets/images/dummy/onepiece.png" alt="">
+              </div>
+              <div class="box-footer">
+                <h4>One Piece2</h4>
+                <p>ONE PIECE BLUE</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="cat-box-l" href="#">
+              <div class="row">
+                <div class="col-4 box-img">
+                  <img src="assets/images/dummy/lena.png" alt="">
+                </div>
+                <div class="col-8 box-footer my-auto p-2">
+                  <h6>DUCHANNES BLACK</h6>
+                  <h4>Lena Duchannes Dress2</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="cat-box text-center">
+              <div class="box-img">
+                <img src="assets/images/dummy/top.png" alt="">
+              </div>
+              <div class="box-footer">
+                <h4>Crop Top Sweater2</h4>
+                <p>BLUE CROP TOP SWEATER</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="cat-box text-center">
+              <div class="box-img">
+                <img src="assets/images/dummy/shiirt.png" alt="">
+              </div>
+              <div class="box-footer">
+                <h4>Khaki Jacquard Shirt2</h4>
+                <p>MEN BLUE SHIRT</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="cat-box text-center">
+              <div class="box-img">
+                <img src="assets/images/dummy/jeans.png" alt="">
+              </div>
+              <div class="box-footer">
+                <h4>Jeans Pant3</h4>
+                <p>WASHABLE JEANS PANT</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="cat-box text-center">
+              <div class="box-img">
+                <img src="assets/images/dummy/shoe.png" alt="">
+              </div>
+              <div class="box-footer">
+                <h4>Blue Boxer Shoes3</h4>
+                <p>JOOTIYAPA BLUE BOXER SHOES2</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="best" role="tabpanel" aria-labelledby="best-tab">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="cat-box text-center">
+              <div class="box-img">
+                <img src="assets/images/dummy/boots.png" alt="">
+              </div>
+              <div class="box-footer">
+                <h4>Royal Boots3</h4>
+                <p>BOOT SHOES</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="cat-box text-center">
+              <div class="box-img">
+                <img src="assets/images/dummy/onepiece.png" alt="">
+              </div>
+              <div class="box-footer">
+                <h4>One Piece</h4>
+                <p>ONE PIECE BLUE3</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="cat-box-l" href="#">
+              <div class="row">
+                <div class="col-4 box-img">
+                  <img src="assets/images/dummy/lena.png" alt="">
+                </div>
+                <div class="col-8 box-footer my-auto p-2">
+                  <h6>DUCHANNES BLACK3</h6>
+                  <h4>Lena Duchannes Dress</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="cat-box text-center">
+              <div class="box-img">
+                <img src="assets/images/dummy/top.png" alt="">
+              </div>
+              <div class="box-footer">
+                <h4>Crop Top Sweater3</h4>
+                <p>BLUE CROP TOP SWEATER</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="cat-box text-center">
+              <div class="box-img">
+                <img src="assets/images/dummy/shiirt.png" alt="">
+              </div>
+              <div class="box-footer">
+                <h4>Khaki Jacquard Shirt3</h4>
+                <p>MEN BLUE SHIRT</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="cat-box text-center">
+              <div class="box-img">
+                <img src="assets/images/dummy/jeans.png" alt="">
+              </div>
+              <div class="box-footer">
+                <h4>Jeans Pant3</h4>
+                <p>WASHABLE JEANS PANT</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="cat-box text-center">
+              <div class="box-img">
+                <img src="assets/images/dummy/shoe.png" alt="">
+              </div>
+              <div class="box-footer">
+                <h4>Blue Boxer Shoes3</h4>
+                <p>JOOTIYAPA BLUE BOXER SHOES</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="coll_banner">
+  <div class="container-fluid p-0 m-0 main-container">
+    <div class="container">
+      <div class="row top-row">
+        <div class="col-sm-6 my-auto text-col">
+          <div class="">
+            <p class="styled-text">New Collection</p>
+            <h1><t class="special">Designed</t> To Work <t class="special">as Hard</t> as You</h1>
+            <p class="secondary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <button type="button" class="btn btn-secondary">All Collection</button>
+          </div>
+        </div>
+        <div class="col-sm-6 img-col">
+          <img src="assets/images/dummy/suit.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid p-0 m-0 secondary-container">
+    <div class="row p-0 m-0">
+      <div class="col-sm-4 my-auto first-col">
+        <div class="row">
+          <div class="col-10 text-col my-auto">
+            <span>30% off in New Year</span>
+            <h4>Big <t class="special">Man</t> Sales</h4>
+            <span>Rs.5,000.00</span>
+          </div>
+          <div class="col-2 img-col">
+            <img src="assets/images/dummy/boots1.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 my-auto second-col">
+        <div class="row">
+          <div class="col-10 text-col my-auto">
+            <span>New Collection</span>
+            <h4><t class="special">New Man</t> Sweater</h4>
+            <span>Rs.5,000.00</span>
+          </div>
+          <div class="col-2 img-col">
+            <img src="assets/images/dummy/sweater.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 my-auto third-col">
+        <div class="row">
+          <div class="col-10 text-col my-auto">
+            <span>30% off in New Year</span>
+            <h4>Top <t class="special">Selling Prom Dresses</t></h4>
+            <span>Rs.5,000.00</span>
+          </div>
+          <div class="col-2 img-col">
+            <img src="assets/images/dummy/prom.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="delivery_service">
+  <div class="container">
+    <div class="container-head text-center">
+      <h1>Delivery & Services</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    </div>
+
+    <div class="row text-center container-body">
+      <div class="col-sm-3 service">
+        <div class="circle logo">
+          <i class="fas fa-tshirt"></i>
+        </div>
+        <div class="text">
+          <h6>High Quality</h6>
+          <p>Credibly pontficated highly efficient manufactured products.</p>
+        </div>
+      </div>
+      <div class="col-sm-3 service">
+        <div class="circle logo">
+          <i class="fas fa-truck"></i>
+        </div>
+        <div class="text">
+          <h6>All Nepal delivery</h6>
+          <p>Nanoetechnology immersion along the highway.</p>
+        </div>
+      </div>
+      <div class="col-sm-3 service">
+        <div class="circle logo">
+          <i class="fas fa-money-bill-wave"></i>
+        </div>
+        <div class="text">
+          <h6>Safe Payment</h6>
+          <p>Taking seamless key performance indicators offline.</p>
+        </div>
+      </div>
+      <div class="col-sm-3 service">
+        <div class="circle logo">
+          <i class="fas fa-percent"></i>
+        </div>
+        <div class="text">
+          <h6>Major Discounts</h6>
+          <p>Complex synergize resource taxing relationships.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="banner">
+  <style media="screen">
+  #banner .banner-container::before{
+    background-image: url(assets/images/dummy/store.jpg);
+  }
+  </style>
+  <div class="container-fluid m-0 p-0 banner-container">
+    <div class="banner-body text-center">
+      <div class="circle">
+        <i class="fas fa-quote-left"></i>
+      </div>
+      <div class="text">
+        <p>Clothing and more delivered straight to your door!</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="blog">
+  <div class="container">
+    <div class="container-head text-center">
+      <h1>Read Our Blog</h1>
+    </div>
+    <div class="container-body">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="center">
+            <div class="imagebox">
+              <img src="assets/images/4.jpg" alt="">
+              <div class="main-content">
+                <div class="content">
+                  <h1>Why do we use it?</h1>
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ,</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="center">
+            <div class="imagebox">
+              <img src="assets/images/5.jpg" alt="">
+              <div class="main-content">
+                <div class="content">
+                  <h1>Why do we use it?</h1>
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ,</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="center">
+            <div class="imagebox">
+              <img src="assets/images/6.jpg" alt="">
+              <div class="main-content">
+                <div class="content">
+                  <h1>Why do we use it?</h1>
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ,</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<?php include('footer.php') ?>
