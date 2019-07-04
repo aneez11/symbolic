@@ -1,30 +1,6 @@
 <?php include('header.php') ?>
 <style media="screen">
-.breadcrumb {
-  background-color: transparent;
-}
-.breadcrumb a{
-  color: black;
-}
-.breadcrumb-item + .breadcrumb-item::before {
-  content: ">>";
-}
-.image-div img{
-  width: 100%;
-}
-.second{
-  margin-top: 15px;
-}
-.second img{
-  width: 100%;
-}
-.item-col{
-  height: 200px;
-  background-color:
-}
-.item-col img{
 
-}
 </style>
 <section id="breadcrumbs">
   <div class="container">
@@ -40,68 +16,120 @@
   <div class="container">
     <div class="row">
       <div class="col-md-3">
-        <div class="card">
-          <article class="card-group-item">
-            <header class="card-header">
-              <h6 class="title">Brands </h6>
-            </header>
-            <div class="filter-content">
-              <div class="card-body">
-                <form>
-                  <label class="form-check">
-                    <input class="form-check-input" type="checkbox" value="">
-                    <span class="form-check-label">
-                      Mersedes Benz
-                    </span>
-                  </label> <!-- form-check.// -->
-                  <label class="form-check">
-                    <input class="form-check-input" type="checkbox" value="">
-                    <span class="form-check-label">
-                      Nissan Altima
-                    </span>
-                  </label>  <!-- form-check.// -->
-                  <label class="form-check">
-                    <input class="form-check-input" type="checkbox" value="">
-                    <span class="form-check-label">
-                      Another Brand
-                    </span>
-                  </label>  <!-- form-check.// -->
-                </form>
-              </div> <!-- card-body.// -->
-            </div>
-          </article> <!-- card-group-item.// -->
-          <article class="card-group-item">
-            <header class="card-header">
-              <h6 class="title">Choose type </h6>
-            </header>
-            <div class="filter-content">
-              <div class="card-body">
-                <label class="form-check">
-                  <input class="form-check-input" type="radio" name="exampleRadio" value="">
-                  <span class="form-check-label">
-                    First hand items
-                  </span>
-                </label>
-                <label class="form-check">
-                  <input class="form-check-input" type="radio" name="exampleRadio" value="">
-                  <span class="form-check-label">
-                    Brand new items
-                  </span>
-                </label>
-                <label class="form-check">
-                  <input class="form-check-input" type="radio" name="exampleRadio" value="">
-                  <span class="form-check-label">
-                    Some other option
-                  </span>
-                </label>
-              </div> <!-- card-body.// -->
-            </div>
-          </article> <!-- card-group-item.// -->
-        </div> <!-- card.// -->
+        <div class="range-slider">
+          <h3 class="text-center">FILTER BY <grey>PRICE</grey></h3>
+          <div id="advance_slide"></div>
+          <div class="variable">
+            <span id="state"></span>
+          </div>
+        </div>
+        <div class="side-filter">
+          <div class="card">
+            <article class="card-group-item">
+              <header class="card-header">
+                <h4 class="title">Categories </h4>
+              </header>
+              <div class="filter-content">
+                <div class="card-body">
+                  <div class="men">
+                    <h6>Men's Wear</h6>
+                    <ul>
+                      <li> <a href="#">Shirts</a> </li>
+                      <li> <a href="#">T-Shirts</a> </li>
+                      <li> <a href="#">Pants</a> </li>
+                      <li> <a href="#">Hoodies</a> </li>
+                      <li> <a href="#">Shoes</a> </li>
+                    </ul>
+                  </div>
+                  <div class="women">
+                    <h6>Women's Wear</h6>
+                    <ul>
+                      <li> <a href="#">Shirts</a> </li>
+                      <li> <a href="#">T-Shirts</a> </li>
+                      <li> <a href="#">Pants</a> </li>
+                      <li> <a href="#">Hoodies</a> </li>
+                      <li> <a href="#">Shoes</a> </li>
+                    </ul>
+                  </div>
+                  <div class="offer">
+                    <h6>Best Offers</h6>
+                    <ul>
+                      <li> <a href="#">Shirts</a> </li>
+                      <li> <a href="#">T-Shirts</a> </li>
+                      <li> <a href="#">Pants</a> </li>
+                      <li> <a href="#">Hoodies</a> </li>
+                      <li> <a href="#">Shoes</a> </li>
+                    </ul>
+                  </div>
+                  <div class="collection">
+                    <h6>Best Collection</h6>
+                    <ul>
+                      <li> <a href="#">Shirts</a> </li>
+                      <li> <a href="#">T-Shirts</a> </li>
+                      <li> <a href="#">Pants</a> </li>
+                      <li> <a href="#">Hoodies</a> </li>
+                      <li> <a href="#">Shoes</a> </li>
+                    </ul>
+                  </div>
+                </div> <!-- card-body.// -->
+              </div>
+            </article> <!-- card-group-item.// -->
+
+          </div> <!-- card.// -->
+        </div>
       </div>
-      <div class="col-md-8">
+      <div class="col-md-9">
+        <div class="row">
+          <div class="col-6">
+          </div>
+          <div class="col-6">
+            <div class="search seperate-search">
+              <form class="" action="" method="post">
+                <div>
+                  <div class="input-group">
+                    <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Product Search" aria-describedby="inputGroupPrepend2" required>
+                    <div class="input-group-prepend">
+                      <button class="input-group-text" id="inputGroupPrepend2" style=" "><i class="fas fa-search"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="indexing">
+          <div class="row">
+            <div class="col-6">
+              <div class="dropdown sort-drop">
+                Sort By:
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Default
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="dropdown show-drop">
+                Showing:
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  8
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="image-div">
-            <img src="assets/images/banner.png" alt="">
+          <img src="assets/images/banner.png" alt="">
         </div>
         <div class="second row">
           <div class="col-md-4">
@@ -117,14 +145,55 @@
   </div>
 </section>
 <section id="item_list">
-<div class="container">
-  <div class="row">
-<div class="col-md-3 item-col">
-<div class="image">
-  <img src="assets/images/dummy/top.png" alt="">
-</div>
-</div>
+  <div class="container">
+    <div class="row">
+      <?php for ($i=1; $i <=8 ; $i++) {
+        ?>
+        <div class="col-md-3 text-center">
+          <div class="item-col">
+            <div class="image">
+              <img src="assets/images/products/<?php echo $i; ?>.png" alt="">
+            </div>
+            <div class="text">
+              <h5 class="item-name">Product <?php echo $i; ?></h5>
+              <p class="item-sub-name">Product category <?php echo $i; ?></p>
+              <p class="item-price">Rs. 1,000.00</p>
+              <ul class="item-rating">
+                <li> <i class="fas fa-star"></i> </li>
+                <li> <i class="fas fa-star"></i> </li>
+                <li> <i class="fas fa-star"></i> </li>
+                <li> <i class="fas fa-star"></i> </li>
+                <li> <i class="fas fa-star"></i> </li>
+              </ul>
+              <a  class="page-link" href="#" style="display:none;">URL for details page</a>
+              <a href="#" class="btn" type="button" name="button">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      <?php } ?>
+    </div>
   </div>
-</div>
 </section>
+<section id="pagination">
+  <div class="container">
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1" aria-disabled="true"> <i class="fas fa-chevron-left"></i> </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">4</a></li>
+        <li class="page-item"><a class="page-link" href="#">5</a></li>
+        <li class="page-item"><a class="page-link" href="#">6</a></li>
+        <li class="page-item"><a class="page-link" href="#">7</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#"> <i class="fas fa-chevron-right"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
+
 <?php include('footer.php') ?>

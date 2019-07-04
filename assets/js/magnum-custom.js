@@ -1,3 +1,32 @@
 $(function () {
   $('[data-toggle="popover"]').popover()
 })
+$(".item-col").click(function() {
+  window.location = $(this).find(".page-link").attr("href");
+  return false;
+});
+// range Slider
+
+//Advance Range Slider
+jQuery(document).ready(function(){
+
+  var getOutput    = $("#state");
+  var getSlider = $("#advance_slide");
+
+  getSlider.slider({
+    range:true,
+    min:100,
+    max:10000,
+    values:[2000, 8000],
+    step:50,
+    slide:function(event, ui){
+      getOutput.html( ' Rs.' + ui.values[0]+'.00 - Rs.'+ui.values[1]+'.00');
+      $("#minValue").val(ui.values[0]);
+      $("#maxValue").val(ui.values[1]);
+    }
+  });
+  getOutput.html('Rs. '+getSlider.slider("values",0)+'.00 - Rs. '+getSlider.slider("values",1)+'.00');
+  $("#minValue").val(getSlider.slider('values', 0));
+  $("#maxValue").val(getSlider.slider('values', 1));
+
+});

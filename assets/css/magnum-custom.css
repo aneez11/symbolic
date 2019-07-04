@@ -7,6 +7,9 @@ padding: 0;
 h1,h2,h3,h4,h5,h6,p{
   color: black;
 }
+grey{
+  color: grey;
+}
 .circle {
    width: 140px;
    height: 140px;
@@ -370,4 +373,209 @@ text-shadow: 1px 2px 0px #d5d5d5, 2px 4px 0px rgba(0, 0, 0, 0.2);
     background: rgba(0, 0, 255,.8);
     transform: translateX(0) scale(1) skew(-45deg);
 
+}
+/* home details */
+.breadcrumb {
+  background-color: transparent;
+}
+.breadcrumb a{
+  color: black;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">>";
+}
+.search{
+  width: 80%;
+  float: right;
+}
+.search button{
+  background-color: black;
+  color: white;
+  border:0px;
+  border-radius: 0px 10px 10px 0px !important;
+}
+.search input{
+  border-radius: 10px 0px 0px 10px !important;
+}
+.indexing{
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 10px 0px 10px 0px;
+  margin: 0px 0px 20px 0px;
+}
+.indexing button{
+  background-color: white;
+  color: black;
+  border-radius: 0px;
+}
+.show-drop{
+  float: right;
+}
+.side-filter h4{
+  font-weight: 800;
+  text-align: center;
+}
+.side-filter h6{
+  font-weight: 800;
+}
+.side-filter ul{
+  list-style: none;
+  padding: 0px;
+}
+.side-filter ul li a{
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+.side-filter .category-card ul li a:hover{
+  color: blue;
+}
+.side-filter .category-card ul li a::before{
+  content: '- ';
+}
+.side-filter .category-card ul li a::after{
+  content: '\f054';
+  float: right;
+  font-family: 'Font Awesome\ 5 Free';
+  font-weight: 900;
+}
+.image-div img{
+  width: 100%;
+}
+.second{
+  margin-top: 15px;
+}
+.second img{
+  width: 100%;
+}
+.item-col{
+  background-color:#f7f7f7;
+  min-height: 420px;
+  margin-bottom: 30px;
+}
+.item-col:hover{
+  box-shadow: -1px 1px 6px 3px #eae8e8;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+.item-col img{
+  height: 255px;
+  padding: 10px;
+  max-width: 255px;
+}
+.item-col .item-rating{
+  list-style: none;
+  padding: 0px;
+}
+.item-col .item-name{
+  font-size: 20px;
+  font-weight: 800;
+}
+.item-col .item-sub-name{
+  font-size: 12px;
+  color: grey;
+  margin: 0px;
+  text-transform: uppercase;
+}
+.item-col .item-rating li{
+  display: inline;
+  color: gold;
+}
+.item-col .btn{
+  background-color: #1558b1;
+  border-radius: 50px;
+  color: white;
+  width: 70%;
+}
+.item-col .btn:hover{
+  box-shadow: 1px 1px 4px 1px #545454;
+}
+.item-col .item-price{
+  font-weight: 800;
+  margin: 0px;
+}
+#pagination .page-link {
+  /* position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #007bff;
+  background-color: #fff; */
+  border: 0px;
+  color: black;
+}
+.range-slider .ui-widget.ui-widget-content {
+  border: 0px;
+  background: lightgray;
+  height: 5px;
+}
+.range-slider .ui-state-default, .ui-widget-content .ui-state-default{
+  border: 0px;
+  background: #FF0000;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+}
+.ui-slider-horizontal .ui-slider-range {
+  background: blue;
+}
+.variable {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid;
+  margin: 15px 00px;
+}
+/* product group */
+.image-div{
+  margin-bottom: 30px;
+}
+.new-product{
+  background-color: aqua;
+  width: 25%;
+  padding: 5px;
+  position: absolute;
+  left: 15px;
+  top: 15%;
+  height: 35px;
+  font-weight: 600;
+}
+.side-filter .color-card li{
+  display: inline;
+  padding-left:2px;
+}
+.yellowt{
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid yellow;
+}
+.greent{
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid green;
+}
+.redt{
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid red;
+}
+.brownt{
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid brown;
+}
+.blackt{
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid black;
 }

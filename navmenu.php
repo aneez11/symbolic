@@ -16,7 +16,7 @@
     </div>
   </div>
 </div>
-<nav class="navbar navbar-expand-lg navbar-light ">
+<nav class="navbar navbar-expand-lg navbar-light " style="border-bottom:1px solid grey;">
   <div class="container">
 
     <a class="navbar-brand" href="#"> <img style="height:50px;" src="assets/images/logo.jpg" alt=""> </a>
