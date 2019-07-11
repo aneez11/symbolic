@@ -124,6 +124,10 @@ footer{
 
 <script src="assets/js/bootstrap.js" charset="utf-8"></script>
 <script src="assets/js/bootstrap.bundle.js" charset="utf-8"></script>
+<script src="assets/vendors/owlcarousel/owl.carousel.js"></script>
+<!-- vendors -->
+<script src="assets/vendors/owlcarousel/vendors/highlight.js"></script>
+<script src="assets/vendors/owlcarousel/js/app.js"></script>
 <script src="assets/js/magnum-custom.js" charset="utf-8"></script>
 
 </body>
