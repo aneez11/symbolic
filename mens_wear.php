@@ -1,42 +1,6 @@
 <?php include('header.php') ?>
 <style media="screen">
-.item{
-  display: flex;
-  justify-content: center;
-}
-.owl-carousel{
-  margin-right: 0px;
-  margin-left: 0px;
-}
-.owl-nav button span:hover{
-  background-color: transparent;
-}
-.owl-nav button.owl-next{
-  position: absolute;
-  top: 30%;
-  z-index: 12;
-  right: -30px;
-}
-.owl-nav button.owl-prev{
-  position: absolute;
-  top: 30%;
-  z-index: 12;
-  left: -30px;
-}
-.owl-nav button span{
-  font-size: 30px;
-  padding: 0px;
-}
-.owl-nav button{
-  height: 34px;
-  background-color: transparent !important;
-}
-.owl-nav button:hover{
-  color: black !important;
-}
-.owl-nav button:active{
-  border: none !important;
-}
+
 </style>
 <div id="breadcrumbs">
   <div class="container">
@@ -225,10 +189,9 @@
             </div>
           <?php } ?>
         </div>
-      </section>
+      </div>
     </div>
   </div>
-</div>
 </section>
 
 <?php include('footer.php') ?>

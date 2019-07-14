@@ -278,7 +278,7 @@
                     <td><img src="assets/images/products/<?php echo $i+1; ?>.png" alt=""></td>
                     <td>Rs. 3,500.00</td>
                     <td style="display:inline-grid; padding-top:30px;">
-                      <button style="" type="submit" class="btn btn-primary">Submit</button>
+                      <button style="" type="submit" class="btn btn-primary">Move to Cart</button>
                       <!-- <button style="" type="submit" class="btn btn-warning">Remove from Wishlist</button> -->
                       <a href="#">Remove from Wishlist</a>
                     </td>
