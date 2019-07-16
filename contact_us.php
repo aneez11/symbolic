@@ -35,7 +35,7 @@
             <div class="col-md-6">
                 <div>
                     <h3>Contact</h3>
-                    <p>, please contact us or send us an email. We are sure that you can receive our reply as soon as possible.</p>
+                    <p>If you need any help, please contact us or send us an email. We are sure that you can receive our reply as soon as possible.</p>
                 </div>
                 <table class="table table-borderless contact-table">
                     <tr>
