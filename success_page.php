@@ -1,8 +1,5 @@
 <?php include('header.php') ?>
 <style>
-    .thanks-container{
-        min-height: calc(90vh - 330px);
-    }
 </style>
 <section id="thank_you">
   <div class="container text-center thanks-container mt-5">
