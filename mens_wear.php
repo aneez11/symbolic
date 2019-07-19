@@ -27,10 +27,10 @@
       </div>
       <div class="col-md-8">
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-6 product-title">
             <h3 class="">PRODUCT <grey>MEN'S WEAR</grey></h3>
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <div class="search seperate-search">
               <form class="" action="" method="post">
                 <div>
@@ -135,17 +135,17 @@
         </div>
       </div>
       <div class="col-md-9">
-        <div class="name_top" style="border-top:2px solid black;">
-          <a href="#" class="btn" type="button" name="button">T-Shirts <i class="fas fa-chevron-down"></i> </a>
-
+        <div class="name_top">
+          <a href="#" class="btn btn-primary" name="button">T-Shirts <i class="fas fa-chevron-down"></i> </a>
+            <hr>
         </div>
         <div class="owl-carousel owl-theme">
           <?php for ($i=1; $i <=6 ; $i++) {
             ?>
-            <div class="text-center item">
+            <div class="text-center item special_item">
               <div class="item-col">
                 <div class="image">
-                  <img src="assets/images/products/7.png" alt="">
+                  <img src="assets/images/products/<?php echo $i+1 ?>.png" alt="">
                 </div>
                 <div class="text">
                   <h5 class="item-name">Shirt <?php echo 2*$i-1; ?></h5>
@@ -169,7 +169,7 @@
             <div class=" text-center item">
               <div class="item-col">
                 <div class="image">
-                  <img src="assets/images/products/7.png" alt="">
+                  <img src="assets/images/products/<?php echo $i+2 ?>.png" alt="">
                 </div>
                 <div class="text">
                   <h5 class="item-name">Shirt <?php echo 2*$i; ?></h5>

@@ -16,6 +16,7 @@
 <link rel="stylesheet" href="assets/vendors/owlcarousel/assets/owl.theme.default.min.css">
 
 <link rel="stylesheet" href="assets/css/magnum-custom.css">
+<link rel="stylesheet" href="assets/css/magnum-custom-responsive.css">
 <script src="assets/js/jquery.js" charset="utf-8"></script>
 <script src="assets/js/popper.min.js" charset="utf-8"></script>
 <script src="////cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>

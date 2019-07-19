@@ -149,7 +149,7 @@
     <div class="row">
       <?php for ($i=1; $i <=8 ; $i++) {
         ?>
-        <div class="col-md-3 text-center">
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
           <div class="item-col">
             <div class="image">
               <img src="assets/images/products/<?php echo $i; ?>.png" alt="">

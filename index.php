@@ -52,7 +52,7 @@
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="product" role="tabpanel" aria-labelledby="product-tab">
                     <div class="row">
-                        <div class="col-sm-3">
+                        <div class="col-md-3 col-sm-6">
                             <div class="cat-box text-center">
                                 <div class="box-img">
                                     <img src="assets/images/dummy/boots.png" alt="">
@@ -63,7 +63,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-md-3 col-sm-6">
                             <div class="cat-box text-center">
                                 <div class="box-img">
                                     <img src="assets/images/dummy/onepiece.png" alt="">
@@ -74,7 +74,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6 col-sm-12">
                             <div class="cat-box-l" href="#">
                                 <div class="row">
                                     <div class="col-4 box-img">
@@ -88,7 +88,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-md-3 col-sm-6">
                             <div class="cat-box text-center">
                                 <div class="box-img">
                                     <img src="assets/images/dummy/top.png" alt="">
@@ -99,7 +99,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-md-3 col-sm-6">
                             <div class="cat-box text-center">
                                 <div class="box-img">
                                     <img src="assets/images/dummy/shiirt.png" alt="">
@@ -110,7 +110,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-md-3 col-sm-6">
                             <div class="cat-box text-center">
                                 <div class="box-img">
                                     <img src="assets/images/dummy/jeans.png" alt="">
@@ -121,7 +121,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-md-3 col-sm-6">
                             <div class="cat-box text-center">
                                 <div class="box-img">
                                     <img src="assets/images/dummy/shoe.png" alt="">
@@ -367,12 +367,11 @@
     <section id="delivery_service">
         <div class="container">
             <div class="container-head text-center">
-                <h1>Delivery & Services</h1>
+                <h1>Delivery & services</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             </div>
-
             <div class="row text-center container-body">
-                <div class="col-md-3 col-sm-6 service">
+                <div class="col-md-3 col-sm-6col-6 col-6 service">
                     <div class="circle logo">
                         <i class="fas fa-tshirt"></i>
                     </div>
@@ -381,7 +380,7 @@
                         <p>Credibly pontficated highly efficient manufactured products.</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 service">
+                <div class="col-md-3 col-sm-6col-6 col-6 service">
                     <div class="circle logo">
                         <i class="fas fa-truck"></i>
                     </div>
@@ -390,7 +389,7 @@
                         <p>Nanoetechnology immersion along the highway.</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 service">
+                <div class="col-md-3 col-sm-6col-6 col-6 service">
                     <div class="circle logo">
                         <i class="fas fa-money-bill-wave"></i>
                     </div>
@@ -399,7 +398,7 @@
                         <p>Taking seamless key performance indicators offline.</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 service">
+                <div class="col-md-3 col-sm-6col-6 col-6 service">
                     <div class="circle logo">
                         <i class="fas fa-percent"></i>
                     </div>
@@ -435,7 +434,7 @@
             </div>
             <div class="container-body">
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-md-4 mb-2">
                         <div class="center">
                             <div class="imagebox">
                                 <img src="assets/images/4.jpg" alt="">
@@ -448,7 +447,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-md-4 mb-2">
                         <div class="center">
                             <div class="imagebox">
                                 <img src="assets/images/5.jpg" alt="">
@@ -461,7 +460,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-md-4 mb-2">
                         <div class="center">
                             <div class="imagebox">
                                 <img src="assets/images/6.jpg" alt="">

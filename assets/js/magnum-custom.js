@@ -1,6 +1,6 @@
 $(function () {
   $('[data-toggle="popover"]').popover()
-})
+});
 $(".item-col").click(function() {
   window.location = $(this).find(".page-link").attr("href");
   return false;

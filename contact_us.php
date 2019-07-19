@@ -19,8 +19,7 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Product</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Shirt</li>
+                <li class="breadcrumb-item active" aria-current="page">Contact</li>
             </ol>
         </nav>
     </div>
@@ -39,7 +38,7 @@
                 </div>
                 <table class="table table-borderless contact-table">
                     <tr>
-                        <td><i class="fab fa-facebook-f"></i></td>
+                        <td><i class="fas fa-map-marker-alt"></i></td>
                         <td>
                             <h4>Address</h4>
                             <p>Maitidevi, Kathmandu, Nepal</p>
@@ -60,14 +59,14 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><i class="fas fa-letter"></i></td>
+                        <td><i class="far fa-envelope"></i></td>
                         <td>
                             <h4>E-Mail</h4>
                             <p>info@symbolic.com</p>
                         </td>
                     </tr>
                     <tr>
-                        <td><i class="fas fa-clock"></i></td>
+                        <td><i class="far fa-clock"></i></td>
                         <td>
                             <h4>Support Hours</h4>
                             <p>Sun-Sat 8:00am - 8:00pm</p>
