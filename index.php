@@ -38,7 +38,7 @@
             <div class="container-head text-center">
                 <h1>Checkout Our Products</h1>
             </div>
-            <ul class="nav nav-tabs" id="" role="tablist" style="margin-bottom:10px;">
+            <ul class="nav nav-tabs" id="" role="tablist" style="margin-bottom:10px; justify-content: center">
                 <li class="nav-item">
                     <a class="nav-link active" id="product-tab" data-toggle="tab" href="#product" role="tab" aria-controls="product" aria-selected="true">Check Our Products</a>
                 </li>

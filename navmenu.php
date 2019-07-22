@@ -91,7 +91,10 @@
                     <a class="nav-link" href="#">Contact Us</a>
                 </li>
                 <li class="nav-item text-center not-mobile" style="border-left:1px solid black;width: 60px;">
-                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i><span style="position: absolute;top: 10px;" class="badge badge-light">9</span> </a>
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span style="position: absolute;top: 10px;" class="badge badge-light">9</span>
+                    </a>
                 </li>
                 <li class="nav-item text-center not-mobile" style="border-left:1px solid black;width: 60px;">
                     <a class="nav-link login-pop" href="#"><i class="fas fa-user"></i></a>
@@ -122,8 +125,8 @@
                     <div class="logged-container" style="display: none;">
                         <ul class='loggedin-popper'>
                             <li><b>Magnum Hunter</b></li>
-                            <li><a href=''>My Profile</a></li>
-                            <li><a class="click_me">Logout</a></li>
+                            <li><a href="#">My Profile</a></li>
+                            <li><a href="#">Logout</a></li>
                         </ul>
                     </div>
                     <script type="text/javascript">

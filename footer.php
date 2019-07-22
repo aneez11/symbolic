@@ -31,7 +31,7 @@
                     </div>
                     <div class="col-half b-l">
                         <p>Follow us @</p>
-                        <div class="top-social inline">
+                        <div class="bottom-social inline">
                             <ul>
                                 <li> <a href="#"><i class="fab fa-facebook-f"></i></a> </li>
                                 <li> <a href="#"><i class="fab fa-instagram"></i></a> </li>
