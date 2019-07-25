@@ -34,10 +34,10 @@
         <nav class="wsmenu clearfix">
             <ul class="wsmenu-list">
 
-                <li class="wscarticon clearfix">
+                <li class="wscarticon clearfix not-mobile">
                     <a href="#"><i class="fas fa-shopping-basket"></i> <em class="roundpoint">8</em><span class="hidetxt">Shopping
                     Cart</span></a>
-                    <li aria-haspopup="true" class="wsshopmyaccount"><a href="#"><i class="fas fa-user"></i></a>
+                    <li aria-haspopup="true" class="wsshopmyaccount not-mobile"><a href="#"><i class="fas fa-user"></i></a>
                         <ul class="sub-menu">
                             <li><a href="#"><i class="fas fa-user-tie"></i>View Profile</a></li>
                             <li><a href="#"><i class="fas fa-heart"></i>My Wishlist</a></li>

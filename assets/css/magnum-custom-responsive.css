@@ -44,7 +44,7 @@
         margin-left: 60px;
     }
     .not-mobile{
-        display: none;
+        display: none !important;
     }
     /*our product*/
     .cat-box-l p{
