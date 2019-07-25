@@ -115,6 +115,9 @@ grey{
 .wsmenu>.wsmenu-list>li>.wsmegamenu,.wsmenu>.wsmenu-list>li>.wsshoptabing {
     top: 56px;
 }
+.wsmenu>.wsmenu-list>li>.navtext>span+span {
+    color: #000000;
+}
 .top-span{
     height: 5px;
 }
