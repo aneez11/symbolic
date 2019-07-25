@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
   <meta charset="utf-8">
   <!-- <meta http-equiv="refresh" content="5" > -->
@@ -14,12 +15,18 @@
 <!-- Owl Stylesheets -->
 <link rel="stylesheet" href="assets/vendors/owlcarousel/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="assets/vendors/owlcarousel/assets/owl.theme.default.min.css">
+<link id="effect" rel="stylesheet" type="text/css" media="all" href="assets/webslidemenu/dropdown-effects/fade-down.css" />
+<link rel="stylesheet" type="text/css" media="all" href="assets/webslidemenu/webslidemenu.css" />
+<link id="theme" rel="stylesheet" type="text/css" media="all" href="assets/webslidemenu/color-skins/white-gry.css" />
+<!--For Demo Only (Remove below css and Javascript) -->
+<link rel="stylesheet" href="assets/webslidemenu/demo.css" />
 
 <link rel="stylesheet" href="assets/css/magnum-custom.css">
 <link rel="stylesheet" href="assets/css/magnum-custom-responsive.css">
 <script src="assets/js/jquery.js" charset="utf-8"></script>
 <script src="assets/js/popper.min.js" charset="utf-8"></script>
 <script src="////cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
 <style>
 
     .symbolic-body{

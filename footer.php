@@ -71,6 +71,24 @@
 <!-- vendors -->
 <script src="assets/vendors/owlcarousel/vendors/highlight.js"></script>
 <script src="assets/vendors/owlcarousel/js/app.js"></script>
+<!-- Include Below JS After Your jQuery.min File -->
+<script type="text/javascript" src="assets/webslidemenu/webslidemenu.js"></script>
+<!--Main Menu File-->
+
+
+<!--<script type='text/javascript'>-->
+<!--    $(document).ready(function () {-->
+<!--        $("a[data-theme]").click(function () {-->
+<!--            $("head link#theme").attr("href", $(this).data("theme"));-->
+<!--            $(this).toggleClass('active').siblings().removeClass('active');-->
+<!--        });-->
+<!--        $("a[data-effect]").click(function () {-->
+<!--            $("head link#effect").attr("href", $(this).data("effect"));-->
+<!--            $(this).toggleClass('active').siblings().removeClass('active');-->
+<!--        });-->
+<!---->
+<!--    });-->
+<!--</script>-->
 <script src="assets/js/magnum-custom.js" charset="utf-8"></script>
 
 </body>

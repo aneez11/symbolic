@@ -3,6 +3,7 @@ body
 {
 margin: 0;
 padding: 0;
+    background-color: white ;
 }
 body::-webkit-scrollbar {
     width: .4em;
@@ -104,6 +105,71 @@ grey{
   text-align: right;
   color: white;
 }
+/*wsnavmenu*/
+.wsmenu>.wsmenu-list>li.wscarticon>a{
+    display: inline-block;
+}
+.wsmenu>.wsmenu-list>li>.navtext {
+    padding: 18px 18px;
+}
+.wsmenu>.wsmenu-list>li>.wsmegamenu,.wsmenu>.wsmenu-list>li>.wsshoptabing {
+    top: 56px;
+}
+.top-span{
+    height: 5px;
+}
+.mobile-basket{
+    margin-right: 10px;
+}
+.cart-badge{
+    position: absolute;
+    top: 6px;
+    right: 43px;
+}
+.headtoppart {
+    background-color: #000000;
+}
+.headertopright{
+    float: right;
+}
+.headertopright a {
+    color: #ffffff;
+}
+.headertopright.clearfix a {
+    border-radius: 59px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    padding: 8px;
+    border: 1px solid white;
+    margin: 3px;
+    text-decoration: none;
+}
+.address {
+    color: #ffffff;
+}
+.address span {
+    color: #ffffff;
+}
+.address i {
+    color: #ffffff;
+}
+.address a {
+    color: #ffffff;
+}
+.single-nav span::after{
+    content: none !important;
+}
+@media only screen and (max-width: 1262px) and (min-width: 992px) {
+    .smllogo {
+        width: 17%;
+    }
+    .wsmenu {
+        width: 83%;
+    }
+}
+
 /* navmenu */
 .navbar-light .navbar-nav .nav-link {
   color: rgb(0, 0, 0);
@@ -538,7 +604,7 @@ text-shadow: 1px 2px 0px #d5d5d5, 2px 4px 0px rgba(0, 0, 0, 0.2);
     width: 100%;
     transition: .5s;
 }
-.main-content{
+.imagebox .main-content{
     position: absolute;
     top: 0;
     left: 0;
@@ -546,6 +612,8 @@ text-shadow: 1px 2px 0px #d5d5d5, 2px 4px 0px rgba(0, 0, 0, 0.2);
     height: 100%;
     background: transparent;
     transition: .5s;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .main-content:before{
     content: "";

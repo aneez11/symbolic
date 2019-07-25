@@ -18,6 +18,18 @@
         font-size: 16px;
     }
 }
+@media only screen and (max-width: 1090px){
+    .headertopright.clearfix a {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: 25%;
+        padding: 8px;
+         border: none;
+        margin: auto;
+        text-decoration: none;
+    }
+}
 @media only screen and (max-width: 992px) {
 
     .mobile-login{
@@ -63,6 +75,13 @@
     }
     .footer-row .col-half {
         width: 18% !important;
+    }
+    .wsmobileheader>.smllogo {
+        display: block;
+        width: 140px;
+        margin: 7px auto 0px auto;
+        float: none;
+        padding-left: 0px;
     }
 }
 @media only screen and (max-width: 768px) {
