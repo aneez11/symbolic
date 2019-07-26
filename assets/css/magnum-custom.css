@@ -316,7 +316,9 @@ a.nav-link:hover {
 .mega-menu img { padding-bottom: 10px;}
 
 
-
+.headerfull {
+    border-bottom: 1px solid lightgrey;
+}
 
 
 
