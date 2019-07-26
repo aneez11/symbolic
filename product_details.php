@@ -1,6 +1,30 @@
 <?php include('header.php') ?>
 <style media="screen">
-
+.share ul{
+    list-style: none;
+    padding: 0;
+}
+.share ul li:first-child{
+    font-size:16px ;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.share ul li{
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.Comments {
+    border: 1px solid lightgrey;
+}
+.Comments .nav-tabs .nav-link.active, .Comments.nav-tabs .nav-item.show .nav-link,.Comments .nav-tabs .nav-link:hover, .Comments .nav-tabs .nav-link:focus  {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 5px;
+}
+.Comments .nav-tabs .nav-link.active{
+    border-bottom: 2px solid blue;
+}
 </style>
 <div id="breadcrumbs">
   <div class="container">
@@ -148,6 +172,14 @@
                 <li> <i class="fas fa-star"></i> </li>
               </ul>
             </div>
+              <div class="share">
+                  <ul>
+                      <li>Share It :</li>
+                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  </ul>
+              </div>
             <div class="Comments">
               <nav>
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
