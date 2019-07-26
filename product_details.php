@@ -74,22 +74,28 @@
         <div class="row">
           <div class="col-md-4 text-center">
             <div class="row details-image ">
-              <div class="col-12 p-0 m-0">
+              <div class="col-12 p-0 m-0 h-100">
                 <div class="my-auto">
-                  <img class="" src="assets/images/products/1.png" alt="">
+                  <img class="" id="expandedImg" src="assets/img/Tshirt_Product%20Details.png" alt="">
                 </div>
               </div>
             </div>
             <div class="row sub-details">
-              <div class="col-3">
-                <img src="assets/images/products/1.png" alt="">
-              </div>
-              <div class="col-3">
-                <img src="assets/images/products/1.png" alt="">
-              </div>
-              <div class="col-3">
-                <img src="assets/images/products/1.png" alt="">
-              </div>
+                <div class="owl-carousel owl-theme owl-carousel-product">
+                    <div class="item">
+                        <img src="assets/img/Tshirt_Product%20Details.png" alt="" onclick="myFunction(this);">
+                    </div>
+                    <?php
+                    for ($i=0; $i<5; $i++){
+                        ?>
+                    <div class="item">
+                        <img src="assets/images/products/<?php echo $i+1;?>.png" alt="" onclick="myFunction(this);">
+                    </div>
+                    <?php
+                    };
+                    ?>
+                    <div style="display: none" class="item"><h4>!!!Do not Remove!!!</h4></div>
+                </div>
             </div>
           </div>
           <div class="col-md-8 details-div">
@@ -170,6 +176,9 @@
 </section>
 <section>
   <div class="container">
+      <div class="heading text-center">
+          <h2>Related Products</h2>
+      </div>
     <div class="owl-carousel owl-theme">
       <?php for ($i=1; $i <=6 ; $i++) {
         ?>
@@ -222,20 +231,13 @@
     </div>
   </div>
 </section>
-<script type="text/javascript">
-function increaseValue() {
-  var value = parseInt(document.getElementById('number').value, 10);
-  value = isNaN(value) ? 0 : value;
-  value++;
-  document.getElementById('number').value = value;
-}
-
-function decreaseValue() {
-  var value = parseInt(document.getElementById('number').value, 10);
-  value = isNaN(value) ? 0 : value;
-  value < 1 ? value = 1 : '';
-  value--;
-  document.getElementById('number').value = value;
-}
+<script>
+    function myFunction(imgs) {
+        var expandImg = document.getElementById("expandedImg");
+        var imgText = document.getElementById("imgtext");
+        expandImg.src = imgs.src;
+        imgText.innerHTML = imgs.alt;
+        expandImg.parentElement.style.display = "block";
+    }
 </script>
 <?php include('footer.php') ?>

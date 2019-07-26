@@ -52,7 +52,7 @@
                     <ul class="dropdown-menu mega-menu">
                         <li class="mega-menu-column">
                             <h6>Our Best Selling</h6>
-                            <img src="assets/assets/images/products/1.png">
+                            <img src="assets/images/products/1.png">
                         </li>
                         <li class="mega-menu-column">
                             <ul style="display: grid;">

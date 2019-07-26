@@ -20,13 +20,7 @@
 .image img{
   max-height: 150px;
 }
-.comments{
-  font-size: 12px;
-  text-align: justify;
-}
-.comments ul{
-  list-style: circle;
-}
+
 .wishlist img{
   max-height: 100px;
 }
@@ -36,10 +30,24 @@
 #user_dashboard .table th,#user_dashboard .table td {
   vertical-align: middle;
 }
+    #user_dashboard .nav-tabs{
+        font-weight: 800;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        padding: 5px 0px;
+    }
+    #user_dashboard .nav-tabs .nav-link.active, #user_dashboard.nav-tabs .nav-item.show .nav-link,#user_dashboard .nav-tabs .nav-link:hover, #user_dashboard .nav-tabs .nav-link:focus  {
+         background-color: transparent;
+         border-color: transparent;
+    }
+#user_dashboard .nav-tabs .nav-link,#user_dashboard .nav-tabs .nav-link.active{
+    border-right: 1px solid black;
+    border-radius: 0px;
+}
 </style>
 <section id="user_dashboard">
   <div class="container">
-    <div class="Comments">
+    <div class="dash">
       <nav>
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
           <a class="nav-item nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true">Profile and Settings</a>

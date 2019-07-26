@@ -121,6 +121,12 @@ grey{
 .wsmenu>.wsmenu-list>li>.navtext>span+span {
     color: #000000;
 }
+.smllogo {
+    width: 16%;
+}
+.wsmenu{
+    width: 84%;
+}
 .top-span{
     height: 5px;
 }
@@ -1050,10 +1056,18 @@ text-shadow: 1px 2px 0px #d5d5d5, 2px 4px 0px rgba(0, 0, 0, 0.2);
     max-height: 253px;
     padding: 10px;
 }
-.sub-details div{
+.sub-details{
+    margin: 10px 0px;
+}
+.sub-details .item{
+    height: 85px;
+}
+.sub-details img{
     background: lightgrey;
-    margin:5px;
-    margin-top: 5px;
+    max-height: 100%;
+}
+.sub-details .owl-nav button.owl-prev,.sub-details .owl-nav button.owl-next {
+    top: 13%;
 }
 .color-pallet{
     display: flex;

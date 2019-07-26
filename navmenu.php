@@ -39,8 +39,10 @@
                     Cart</span></a>
                     <li aria-haspopup="true" class="wsshopmyaccount not-mobile"><a href="#"><i class="fas fa-user"></i></a>
                         <ul class="sub-menu">
+                            <li><a href="#" data-toggle="modal" data-target="#login"><i class="fas fa-user-tie"></i>Login</a></li>
+                            <li><a href="#" data-toggle="modal" data-target="#signup"><i class="fas fa-sign-in-alt"></i>Signup</a></li>
                             <li><a href="#"><i class="fas fa-user-tie"></i>View Profile</a></li>
-                            <li><a href="#"><i class="fas fa-heart"></i>My Wishlist</a></li>
+                            <li><a href="#"><i class="fas fa-heart"></i>My Wishlis</a></li>
                             <li><a href="#"><i class="fas fa-bell"></i>Notification</a></li>
                             <li><a href="#"><i class="fas fa-question-circle"></i>Help Center</a></li>
                             <li><a href="#"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
@@ -1034,5 +1036,96 @@
 
             </ul>
         </nav>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg magnum-modal" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="login-modal">
+                    <div class="row h-100">
+                        <div class="col-6 img-row" style="background-image: url('assets/images/login_bg.jpg');">
+                            <div class="row">
+                                <div class="create-content p-5">
+                                    <h4>Create Account</h4>
+                                    <a href="#" class="btn btn-primary btn-login-signup" data-toggle="modal" data-target="#signup" data-dismiss="modal">Signup</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 my-auto p-5">
+                            <h4>Login</h4>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Username">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control"  aria-describedby="emailHelp" placeholder="Password">
+                                </div>
+                                <div class="text-center">
+                                    <p>Forgot Password</p>
+                                    <button class="btn btn-primary" style="width: 50%;">Submit</button>
+                                    <p><a href="#" data-toggle="modal" data-target="#signup" data-dismiss="modal">Signup</a> | <a href="#">Forgot Password</a></p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="modal-dismiss-login" data-dismiss="modal"><i class="fas fa-times"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg magnum-modal" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="login-modal">
+                    <div class="row h-100">
+                        <div class="col-6 my-auto p-5">
+                            <h4>Signup</h4>
+                            <form>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control"  aria-describedby="emailHelp" placeholder="First Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Last Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control"  aria-describedby="emailHelp" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <input type="password" class="form-control"  aria-describedby="emailHelp" placeholder="Password">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <p>Password must be a combination of numbers, letters and special chareacters.</p>
+                                    <button class="btn btn-primary" style="width: 50%;">Submit</button>
+                                    <p><a href="#"  data-toggle="modal" data-target="#login" data-dismiss="modal">Login</a> | <a href="#">Forgot Password</a></p>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-6 img-row" style="background-image: url('assets/images/signup.jpg');">
+                            <div class="row">
+                                <div class="col-12 create-content p-5 text-right">
+                                    <h4>Have and Account?</h4>
+                                    <a href="#" class="btn btn-primary btn-login-signup" data-toggle="modal" data-target="#login" data-dismiss="modal">Login</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="modal-dismiss-signup" data-dismiss="modal"><i class="fas fa-times"></i></a>
+            </div>
+        </div>
     </div>
 </div>

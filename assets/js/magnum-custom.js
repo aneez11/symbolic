@@ -31,6 +31,24 @@ jQuery(document).ready(function(){
 
 });
 
+$('.owl-carousel.owl-carousel-product').owlCarousel({
+    loop:false,
+    margin:5,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:4
+        },
+        600:{
+            items:5
+        },
+        1000:{
+            items:3
+        }
+    }
+
+});
 // owlCarousel
 $('.owl-carousel').owlCarousel({
   loop:false,
@@ -49,3 +67,17 @@ $('.owl-carousel').owlCarousel({
       }
   }
 });
+    function increaseValue() {
+        var value = parseInt(document.getElementById('number').value, 10);
+        value = isNaN(value) ? 0 : value;
+        value++;
+        document.getElementById('number').value = value;
+    }
+
+function decreaseValue() {
+    var value = parseInt(document.getElementById('number').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value < 1 ? value = 1 : '';
+    value--;
+    document.getElementById('number').value = value;
+}
