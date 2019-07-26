@@ -189,6 +189,60 @@
             </div>
           <?php } ?>
         </div>
+          <div class="name_top">
+              <a href="#" class="btn btn-primary" name="button">T-Shirts <i class="fas fa-chevron-down"></i> </a>
+              <hr>
+          </div>
+          <div class="owl-carousel owl-theme">
+              <?php for ($i=1; $i <=6 ; $i++) {
+                  ?>
+                  <div class="text-center item special_item">
+                      <div class="item-col">
+                          <div class="image">
+                              <img src="assets/images/products/<?php echo $i+1 ?>.png" alt="">
+                          </div>
+                          <div class="text">
+                              <h5 class="item-name">Shirt <?php echo 2*$i-1; ?></h5>
+                              <p class="item-sub-name">Product category <?php echo 2*$i-1; ?></p>
+                              <p class="item-price">Rs. <?php echo 2*$i-1; ?>,000.00</p>
+                              <ul class="item-rating">
+                                  <li> <i class="fas fa-star"></i> </li>
+                                  <li> <i class="fas fa-star"></i> </li>
+                                  <li> <i class="fas fa-star"></i> </li>
+                                  <li> <i class="fas fa-star"></i> </li>
+                                  <li> <i class="fas fa-star"></i> </li>
+                              </ul>
+                              <a  class="page-link" href="#" style="display:none;">URL for details page</a>
+                              <a href="#" class="btn" type="button" name="button">Add to Cart</a>
+                          </div>
+                          <div class="new-product">
+                              <p>NEW</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class=" text-center item">
+                      <div class="item-col">
+                          <div class="image">
+                              <img src="assets/images/products/<?php echo $i+2 ?>.png" alt="">
+                          </div>
+                          <div class="text">
+                              <h5 class="item-name">Shirt <?php echo 2*$i; ?></h5>
+                              <p class="item-sub-name">Product category <?php echo 2*$i; ?></p>
+                              <p class="item-price">Rs. <?php echo 2*$i; ?>,000.00</p>
+                              <ul class="item-rating">
+                                  <li> <i class="fas fa-star"></i> </li>
+                                  <li> <i class="fas fa-star"></i> </li>
+                                  <li> <i class="fas fa-star"></i> </li>
+                                  <li> <i class="fas fa-star"></i> </li>
+                                  <li> <i class="fas fa-star"></i> </li>
+                              </ul>
+                              <a  class="page-link" href="#" style="display:none;">URL for details page</a>
+                              <a href="#" class="btn" type="button" name="button">Add to Cart</a>
+                          </div>
+                      </div>
+                  </div>
+              <?php } ?>
+          </div>
       </div>
     </div>
   </div>

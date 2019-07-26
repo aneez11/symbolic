@@ -8,7 +8,7 @@
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="assets/images/1.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/banner.png" class="d-block w-100" alt="...">
                         <div class="slider-text">
                             <h1 class="retroshadow">Beat the Chill</h1>
                             <p class="">with this new Arrival</p>
@@ -16,16 +16,18 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/images/2.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/banner.png" class="d-block w-100" alt="...">
                         <div class="slider-text">
-                            <h1>Chill Pill</h1>
+                            <h1>Whats in your Closet!!</h1>
+                            <p class="">Fii it up in this summer sale!</p>
                             <button type="button" class="btn btn-dark">Shop Now</button>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/images/3.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/banner.png" class="d-block w-100" alt="...">
                         <div class="slider-text">
-                            <h1>Aww NIllll</h1>
+                            <h1>SUMMER SALE 2019</h1>
+                            <p class="">Lots of gifts and vouchers</p>
                             <button type="button" class="btn btn-dark">Shop Now</button>
                         </div>
                     </div>
@@ -55,7 +57,7 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="cat-box text-center">
                                 <div class="box-img">
-                                    <img src="assets/images/dummy/boots.png" alt="">
+                                    <img src="assets/img/Shoes_Home.png" alt="">
                                 </div>
                                 <div class="box-footer">
                                     <h4>Royal Boots</h4>
@@ -66,7 +68,7 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="cat-box text-center">
                                 <div class="box-img">
-                                    <img src="assets/images/dummy/onepiece.png" alt="">
+                                    <img src="assets/img/Dress_Home.png" alt="">
                                 </div>
                                 <div class="box-footer">
                                     <h4>One Piece</h4>
@@ -78,7 +80,7 @@
                             <div class="cat-box-l" href="#">
                                 <div class="row">
                                     <div class="col-4 box-img">
-                                        <img src="assets/images/dummy/lena.png" alt="">
+                                        <img src="assets/img/Dress_1_Home.png" alt="">
                                     </div>
                                     <div class="col-8 box-footer my-auto p-2">
                                         <h6>DUCHANNES BLACK</h6>
@@ -91,7 +93,7 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="cat-box text-center">
                                 <div class="box-img">
-                                    <img src="assets/images/dummy/top.png" alt="">
+                                    <img src="assets/img/Sweeter.png" alt="">
                                 </div>
                                 <div class="box-footer">
                                     <h4>Crop Top Sweater</h4>
@@ -102,7 +104,7 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="cat-box text-center">
                                 <div class="box-img">
-                                    <img src="assets/images/dummy/shiirt.png" alt="">
+                                    <img src="assets/img/Shirt.png" alt="">
                                 </div>
                                 <div class="box-footer">
                                     <h4>Khaki Jacquard Shirt</h4>
@@ -113,7 +115,7 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="cat-box text-center">
                                 <div class="box-img">
-                                    <img src="assets/images/dummy/jeans.png" alt="">
+                                    <img src="assets/img/Pant.png" alt="">
                                 </div>
                                 <div class="box-footer">
                                     <h4>Jeans Pant</h4>
@@ -124,7 +126,7 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="cat-box text-center">
                                 <div class="box-img">
-                                    <img src="assets/images/dummy/shoe.png" alt="">
+                                    <img src="assets/img/Shoes_1.png" alt="">
                                 </div>
                                 <div class="box-footer">
                                     <h4>Blue Boxer Shoes</h4>
@@ -318,7 +320,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 img-col">
-                        <img src="assets/images/dummy/suit.png" alt="">
+                        <img src="assets/img/Image_Home.png" alt="">
                     </div>
                 </div>
             </div>
@@ -333,7 +335,7 @@
                             <span>Rs.5,000.00</span>
                         </div>
                         <div class="col-2 img-col">
-                            <img src="assets/images/dummy/boots1.png" alt="">
+                            <img src="assets/img/Shoes_11.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -345,7 +347,7 @@
                             <span>Rs.5,000.00</span>
                         </div>
                         <div class="col-2 img-col">
-                            <img src="assets/images/dummy/sweater.png" alt="">
+                            <img src="assets/img/Sweeter_Home.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -357,7 +359,7 @@
                             <span>Rs.5,000.00</span>
                         </div>
                         <div class="col-2 img-col">
-                            <img src="assets/images/dummy/prom.png" alt="">
+                            <img src="assets/img/Dress_2_Home.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -372,8 +374,9 @@
             </div>
             <div class="row text-center container-body">
                 <div class="col-md-3 col-sm-6col-6 col-6 service">
-                    <div class="circle logo">
-                        <i class="fas fa-tshirt"></i>
+                    <div class="service-image">
+<!--                        <i class="fas fa-tshirt"></i>-->
+                        <img src="assets/img/High%20Quality.png">
                     </div>
                     <div class="text">
                         <h6>High Quality</h6>
@@ -381,8 +384,9 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6col-6 col-6 service">
-                    <div class="circle logo">
-                        <i class="fas fa-truck"></i>
+                    <div class="service-image">
+<!--                        <i class="fas fa-truck"></i>-->
+                        <img src="assets/img/all%20nepal%20Delivery.png">
                     </div>
                     <div class="text">
                         <h6>All Nepal delivery</h6>
@@ -390,8 +394,9 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6col-6 col-6 service">
-                    <div class="circle logo">
-                        <i class="fas fa-money-bill-wave"></i>
+                    <div class="service-image">
+<!--                        <i class="fas fa-money-bill-wave"></i>-->
+                        <img src="assets/img/Safe%20Payment_1.png">
                     </div>
                     <div class="text">
                         <h6>Safe Payment</h6>
@@ -399,8 +404,9 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6col-6 col-6 service">
-                    <div class="circle logo">
-                        <i class="fas fa-percent"></i>
+                    <div class="service-image">
+<!--                        <i class="fas fa-percent"></i>-->
+                        <img src="assets/img/Major%20Discount.png">
                     </div>
                     <div class="text">
                         <h6>Major Discounts</h6>
@@ -437,7 +443,7 @@
                     <div class="col-md-4 mb-2">
                         <div class="center">
                             <div class="imagebox">
-                                <img src="assets/images/4.jpg" alt="">
+                                <img src="assets/img/Our%20Blog.png" alt="">
                                 <div class="main-content">
                                     <div class="content">
                                         <h1>Why do we use it?</h1>
@@ -450,7 +456,7 @@
                     <div class="col-md-4 mb-2">
                         <div class="center">
                             <div class="imagebox">
-                                <img src="assets/images/5.jpg" alt="">
+                                <img src="assets/img/Read%20our%20blog.png" alt="">
                                 <div class="main-content">
                                     <div class="content">
                                         <h1>Why do we use it?</h1>
@@ -463,7 +469,7 @@
                     <div class="col-md-4 mb-2">
                         <div class="center">
                             <div class="imagebox">
-                                <img src="assets/images/6.jpg" alt="">
+                                <img src="assets/img/Read%20our%20blog_1.png" alt="">
                                 <div class="main-content">
                                     <div class="content">
                                         <h1>Why do we use it?</h1>

@@ -1018,7 +1018,7 @@
 <!--                        </div>-->
 <!--                    </div>-->
 <!--                </li>-->
-                <li class="float-right"> <a href="#" class="navtext single-nav"><span class="top-span"></span> <span>Home</span></a> </li>
+                <li class="float-right"> <a href="index.php" class="navtext single-nav"><span class="top-span"></span> <span>Home</span></a> </li>
 
 
                 <!--                <li aria-haspopup="true" class="wsshopmyaccount"><a href="#"><i class="fas fa-align-justify"></i>My&nbsp;Account</a>-->

@@ -154,12 +154,12 @@
           <img src="assets/images/shirt.jpg" alt="">
         </div>
         <div class="row">
-          <?php for ($i=1; $i <=6 ; $i++) {
+          <?php for ($i=1; $i <=3 ; $i++) {
             ?>
             <div class="col-lg-4 col-md-6 col-sm-6 text-center">
               <div class="item-col">
                 <div class="image">
-                  <img src="assets/images/products/7.png" alt="">
+                  <img src="assets/img/Shirt.png" alt="">
                 </div>
                 <div class="text">
                   <h5 class="item-name">Shirt <?php echo 2*$i-1; ?></h5>
@@ -183,7 +183,7 @@
             <div class="col-lg-4 col-md-6 col-sm-6 text-center">
               <div class="item-col">
                 <div class="image">
-                  <img src="assets/images/products/7.png" alt="">
+                  <img src="assets/img/Shirt.png" alt="">
                 </div>
                 <div class="text">
                   <h5 class="item-name">Shirt <?php echo 2*$i; ?></h5>

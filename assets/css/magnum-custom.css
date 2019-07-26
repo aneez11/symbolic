@@ -50,6 +50,7 @@ grey{
    border-radius: 70px;
    display: inline-block;
 }
+
 .item{
   display: flex;
   justify-content: center;
@@ -91,6 +92,7 @@ grey{
     display: block;
     width: auto;
     padding: 10px;
+    max-height: 100%;
 }
 /* navtop */
 .nav-top{
@@ -537,11 +539,14 @@ text-shadow: 1px 2px 0px #d5d5d5, 2px 4px 0px rgba(0, 0, 0, 0.2);
   font-size: 14px;
 }
 
-#delivery_service i{
-  z-index: 1;
-  color: white;
-  font-size: 65px;
-  padding-top: 35px;
+/*#delivery_service i{*/
+/*  z-index: 1;*/
+/*  color: white;*/
+/*  font-size: 65px;*/
+/*  padding-top: 35px;*/
+/*}*/
+#delivery_service .service-image img {
+    height: 100px;
 }
 #delivery_service .service .text {
     margin-top: 20px;
