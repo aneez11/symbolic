@@ -30,7 +30,7 @@
                                 Cash On Delivery
                             </label>
                         </div>
-                        <button type="submit" class="btn btn-primary float-right">Submit</button>
+                        <a href="success_page.php" class="btn btn-primary float-right">Submit</a>
                     </form>
                 </div>
             </div>

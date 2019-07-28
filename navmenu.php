@@ -1,14 +1,29 @@
 <style>
-
+    .wsmenu>.wsmenu-list>li:hover>a {
+        background-color: transparent;
+    }
+    .wsmenu>.wsmenu-list>li>.navtext>span+span:hover,.wsmenu>.wsmenu-list>li>.navtext>span+span:active {
+        border-bottom: 2px solid darkblue;
+    }
+    div.popover {
+        z-index:10002 ;
+    }
+    .wsmobileheader .wssearch.wsopensearch {
+         left: unset;
+         right: 0;
+         width: auto;
+         height: 60px;
+        background-color: transparent;
+    }
 </style>
 <!-- Mobile Header -->
 <div class="wsmobileheader clearfix">
     <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
     <span class="smllogo"><img src="assets/images/logo.jpg" width="150" alt="" /></span>
     <div class="wssearch clearfix">
-        <i class="wsclosesearch fas fa-times"></i>
-        <a href="#"><i class="fas fa-shopping-basket mobile-basket"></i> <em class="badge badge-info cart-badge">8</em></a>
-        <a href="#"><i class="fas fa-user"></i></a>
+<!--        <i class="wsclosesearch fas fa-times"></i>-->
+        <a href="shopping_cart.php"><i class="fas fa-shopping-basket mobile-basket"></i> <em class="badge badge-info cart-badge">8</em></a>
+        <a href="#" class="login-pop"><i class="fas fa-user"></i></a>
     </div>
 </div>
 <!-- Mobile Header -->
@@ -35,23 +50,36 @@
             <ul class="wsmenu-list">
 
                 <li class="wscarticon clearfix not-mobile">
-                    <a href="#"><i class="fas fa-shopping-basket"></i> <em class="roundpoint">8</em><span class="hidetxt">Shopping
+                    <a href="shopping_cart.php"><i class="fas fa-shopping-basket"></i> <em class="roundpoint">8</em><span class="hidetxt">Shopping
                     Cart</span></a>
-                    <li aria-haspopup="true" class="wsshopmyaccount not-mobile"><a href="#"><i class="fas fa-user"></i></a>
-                        <ul class="sub-menu">
-                            <li><a href="#" data-toggle="modal" data-target="#login"><i class="fas fa-user-tie"></i>Login</a></li>
-                            <li><a href="#" data-toggle="modal" data-target="#signup"><i class="fas fa-sign-in-alt"></i>Signup</a></li>
-                            <li><a href="#"><i class="fas fa-user-tie"></i>View Profile</a></li>
-                            <li><a href="#"><i class="fas fa-heart"></i>My Wishlis</a></li>
-                            <li><a href="#"><i class="fas fa-bell"></i>Notification</a></li>
-                            <li><a href="#"><i class="fas fa-question-circle"></i>Help Center</a></li>
-                            <li><a href="#"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
+                    <li aria-haspopup="true" class="wsshopmyaccount not-mobile"><a href="#" class="login-pop"><i class="fas fa-user"></i></a>
+<!--                    <a class="nav-link login-pop" href="#"><i class="fas fa-user"></i></a>-->
+                    <div class="login-container" style="display: none;">
+                        <ul class='login-popper'>
+                            <li><a href='#' class="login_btn">Login</a></li>
+                            <li><a href='#' class="signup_btn">Signup</a></li>
                         </ul>
+                    </div>
+                    <script type="text/javascript">
+                        $(document).ready(function(){
+                            $('.login-pop').popover({
+                                content: $( ".login-container" ).html(),
+                                html: true,
+                                trigger: "focus",
+                                placement: "bottom"});
+                        });
+                        $(document).on("click", ".login_btn", function() {
+                            $('#login').modal('show');
+                        });
+                        $(document).on("click", ".signup_btn", function() {
+                            $('#signup').modal('show');
+                        });
+                    </script>
                     </li>
                 </li>
-                <li class="float-right"> <a href="#" class="navtext single-nav"><span class="top-span"></span> <span>Contact Us</span></a> </li>
-                <li class="float-right"> <a href="#" class="navtext single-nav"><span class="top-span"></span> <span>Blog</span></a> </li>
-                <li class="float-right" aria-haspopup="true"><a href="#" class="navtext"><span class="top-span"></span> <span>Women's Wear</span></a>
+                <li class="float-right"> <a href="contact_us.php" class="navtext single-nav"><span class="top-span"></span> <span>Contact Us</span></a> </li>
+                <li class="float-right"> <a href="blog.php" class="navtext single-nav"><span class="top-span"></span> <span>Blog</span></a> </li>
+                <li class="float-right" aria-haspopup="true"><a href="product_shirt.php" class="navtext"><span class="top-span"></span> <span>Women's Wear</span></a>
                     <div class="wsshoptabing wtsbrandmenu clearfix">
                         <div class="wsshoptabingwp clearfix">
                             <ul class="wstabitem02 clearfix">
@@ -477,7 +505,7 @@
                 </li>
 
 
-                <li class="float-right" aria-haspopup="true"><a href="#" class="navtext"><span class="top-span"></span> <span>Men's Wear</span></a>
+                <li class="float-right" aria-haspopup="true"><a href="mens_wear.php" class="navtext"><span class="top-span"></span> <span>Men's Wear</span></a>
                     <div class="wsmegamenu clearfix">
                         <div class="container-fluid">
                             <div class="row">
@@ -530,7 +558,7 @@
                     </div>
                 </li>
 
-                <li class="float-right" aria-haspopup="true"><a href="#" class="navtext"><span class="top-span"></span> <span>All Categories</span></a>
+                <li class="float-right" aria-haspopup="true"><a href="product_shirt.php" class="navtext"><span class="top-span"></span> <span>All Categories</span></a>
                     <div class="wsshoptabing wtsdepartmentmenu clearfix">
                         <div class="wsshopwp clearfix">
                             <ul class="wstabitem clearfix">
@@ -1065,7 +1093,7 @@
                                 <div class="text-center">
                                     <p>Forgot Password</p>
                                     <button class="btn btn-primary" style="width: 50%;">Submit</button>
-                                    <p><a href="#" data-toggle="modal" data-target="#signup" data-dismiss="modal">Signup</a> | <a href="#">Forgot Password</a></p>
+                                    <p><a href="#" data-toggle="modal" data-target="#signup" data-dismiss="modal">Signup</a> | <a href="forgot_password.php">Forgot Password</a></p>
                                 </div>
                             </form>
                         </div>
@@ -1110,7 +1138,7 @@
                                 <div class="text-center">
                                     <p>Password must be a combination of numbers, letters and special chareacters.</p>
                                     <button class="btn btn-primary" style="width: 50%;">Submit</button>
-                                    <p><a href="#"  data-toggle="modal" data-target="#login" data-dismiss="modal">Login</a> | <a href="#">Forgot Password</a></p>
+                                    <p><a href="#"  data-toggle="modal" data-target="#login" data-dismiss="modal">Login</a> | <a href="forgot_password.php">Forgot Password</a></p>
                                 </div>
                             </form>
                         </div>

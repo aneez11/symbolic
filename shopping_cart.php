@@ -89,8 +89,8 @@
                             </div>
                             <div class="col-md-8">
                                 <div class="buttons text-right">
-                                    <a href="#" class="btn btn-primary btn-sm">Continue Shopping</a>
-                                    <a href="#" class="btn btn-primary btn-sm">Checkout</a>
+                                    <a href="index.php" class="btn btn-primary btn-sm">Continue Shopping</a>
+                                    <a href="checkout.php" class="btn btn-primary btn-sm">Checkout</a>
                                 </div>
                             </div>
                             <div class="col-12 pt-3">

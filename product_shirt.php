@@ -172,8 +172,8 @@
                     <li> <i class="fas fa-star"></i> </li>
                     <li> <i class="fas fa-star"></i> </li>
                   </ul>
-                  <a  class="page-link" href="#" style="display:none;">URL for details page</a>
-                  <a href="#" class="btn" type="button" name="button">Add to Cart</a>
+                  <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
+                  <a href="#" class="btn" type="button">Add to Cart</a>
                 </div>
                 <div class="new-product">
                   <p>NEW</p>
@@ -196,7 +196,7 @@
                     <li> <i class="fas fa-star"></i> </li>
                     <li> <i class="fas fa-star"></i> </li>
                   </ul>
-                  <a  class="page-link" href="#" style="display:none;">URL for details page</a>
+                  <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                   <a href="#" class="btn" type="button" name="button">Add to Cart</a>
                 </div>
               </div>

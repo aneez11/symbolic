@@ -19,7 +19,7 @@
                         <div class="form-group">
                             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <a href="checkout_shipping.php" class="btn btn-primary">Submit</a>
                     </form>
                 </div>
                 <div class="social-logins mt-3">

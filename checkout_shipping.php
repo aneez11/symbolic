@@ -62,7 +62,7 @@
                                 </td>
                             </tr>
                         </table>
-                        <button style="float:right;" type="submit" class="btn btn-primary">Next</button>
+                        <a href="checkout_payment.php" style="float:right;" class="btn btn-primary">Next</a>
                     </form>
                 </div>
             </div>
