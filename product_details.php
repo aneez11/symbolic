@@ -188,7 +188,7 @@
                   <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">reviews</a>
                 </div>
               </nav>
-              <div class="tab-content" id="nav-tabContent">
+              <div class="tab-content" id="nav-tabContent" style="padding: 13px;">
                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
@@ -230,7 +230,7 @@
                 <li> <i class="fas fa-star"></i> </li>
                 <li> <i class="fas fa-star"></i> </li>
               </ul>
-              <a  class="page-link" href="#" style="display:none;">URL for details page</a>
+              <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
               <a href="#" class="btn" type="button" name="button">Add to Cart</a>
             </div>
             <div class="new-product">
@@ -254,7 +254,7 @@
                 <li> <i class="fas fa-star"></i> </li>
                 <li> <i class="fas fa-star"></i> </li>
               </ul>
-              <a  class="page-link" href="#" style="display:none;">URL for details page</a>
+              <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
               <a href="#" class="btn" type="button" name="button">Add to Cart</a>
             </div>
           </div>

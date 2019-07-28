@@ -45,7 +45,7 @@
 
 <div class="headerfull">
     <div class="wsmain clearfix">
-        <div class="smllogo"><a href="#"><img src="assets/images/logo.jpg" alt="" /></a></div>
+        <div class="smllogo"><a href="index.php"><img src="assets/images/logo.jpg" alt="" /></a></div>
         <nav class="wsmenu clearfix">
             <ul class="wsmenu-list">
 
