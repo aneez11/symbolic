@@ -1,5 +1,3 @@
-
-
 <style media="screen">
 
 
@@ -10,7 +8,7 @@
             <div class="footer">
                 <div class="row footer-row">
                     <div class="col-half p-0">
-                        <img style="width:100%;" src="assets/images/logo2.jpg" alt="">
+                        <img style="width:100%;" src="assets/images/logo2.png" alt="">
                         <p class="text-right"><small>Bring in the table win-win survival strategy to ensure domination.</small></p>
                     </div>
                     <div class="col-half b-l">
