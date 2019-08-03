@@ -30,7 +30,7 @@
                                 Cash On Delivery
                             </label>
                         </div>
-                        <a href="success_page.php" class="btn btn-primary float-right">Submit</a>
+                        <a href="success_page.php" class="btn btn-primary float-right">Send</a>
                     </form>
                 </div>
             </div>

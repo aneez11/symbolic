@@ -6,7 +6,9 @@
   <!-- <meta http-equiv="refresh" content="5" > -->
   <title>Symbolic Fashion</title>
 </head>
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/fonts/callingHeart/cheart.css">
 <link rel="stylesheet" href="assets/css/bootstrap.css">
 <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
 <link rel="stylesheet" href="assets/css/bootstrap-reboot.css">
@@ -23,7 +25,7 @@
 
 <link rel="stylesheet" href="assets/css/magnum-custom.css">
 <link rel="stylesheet" href="assets/css/magnum-custom-responsive.css">
-<script src="assets/js/jquery.js" charset="utf-8"></script>
+<script type="text/javascript" src="assets/js/jquery.js"></script>
 <script src="assets/js/popper.min.js" charset="utf-8"></script>
 <script src="////cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 

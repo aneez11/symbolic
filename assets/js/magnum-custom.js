@@ -1,7 +1,7 @@
 $(function () {
   $('[data-toggle="popover"]').popover()
 });
-$(".item-col").click(function() {
+$(".item-col, .prod-cat, .special-col, .imagebox").click(function() {
   window.location = $(this).find(".page-link").attr("href");
   return false;
 });

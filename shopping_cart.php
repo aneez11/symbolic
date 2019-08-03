@@ -36,6 +36,13 @@
         border-radius: 0;
         background: #eae9e9;
     }
+    #shopping_cart .prod-color{
+        height: 20px;
+        width: 20px;
+        border: 1px solid gray;
+        display: inline-block;
+        border-radius: 20px;
+    }
 </style>
 <div id="breadcrumbs">
     <div class="container">
@@ -74,7 +81,11 @@
                                 <td class="text-right"><small><a href="#" class="btn btn-danger btn-disabled btn-sm p-0 px-2">Delete Item</a></small></td>
                             </tr>
                             <tr>
-                                <td class="text-left">Color: <b>Yellow</b></td>
+                                <td class="text-left">Color:
+                                    <div class="inline prod-color" style="background: yellow;">
+                                        <span style="display: none;">color</span>
+                                    </div>
+                                </td>
                                 <td class="text-right"></td>
                             </tr>
                             </tbody>
@@ -117,19 +128,19 @@
                                 <td class="text-left"><b>Price Details</b></td>
                             </tr>
                             <tr>
-                                <td class="text-left">Price (1 item ): <b>Rs.1200.00</b></td>
+                                <td class="text-left">Price (1 item ): <b>Rs.1200.00 /-</b></td>
                             </tr>
                             <tr>
-                                <td class="text-left">Special Discount: <b>Rs.0000.00</b></td>
+                                <td class="text-left">Special Discount: <b>Rs.0000.00 /-</b></td>
                             </tr>
                             <tr>
-                                <td class="text-left">Delivery Charges (Free all around Nepal): <b>Rs.0000.00</b></td>
+                                <td class="text-left">Delivery Charges (Free all around Nepal): <b>Rs.0000.00 /-</b></td>
                             </tr>
                             </tbody>
                         </table>
                         <div class="row">
                             <div class="col-12">
-                                <a class="btn btn-primary btn-sm btn-warning btn-payable" disabled>Amount Payable <b>&nbsp; Rs.1200.00</b></a>
+                                <a class="btn btn-primary btn-sm btn-warning btn-payable" disabled>Amount Payable <b>&nbsp; Rs.1200.00 /-</b></a>
                             </div>
                         </div>
                     </div>

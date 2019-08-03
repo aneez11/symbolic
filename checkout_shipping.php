@@ -54,10 +54,10 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th>Delivery Comment</th>
+                                <th style="display: block;margin-top: 5px">Delivery Comment</th>
                                 <td>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="" placeholder="">
+                                        <textarea style="width: 100%" rows="2" placeholder="Eg. Please deliver soon."></textarea>
                                     </div>
                                 </td>
                             </tr>

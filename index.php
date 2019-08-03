@@ -55,7 +55,8 @@
                 <div class="tab-pane fade show active" id="product" role="tabpanel" aria-labelledby="product-tab">
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
-                            <div class="cat-box text-center">
+                            <div class="prod-cat cat-box text-center">
+                                <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                                 <div class="box-img">
                                     <img src="assets/img/Shoes_Home.png" alt="">
                                 </div>
@@ -66,7 +67,8 @@
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
-                            <div class="cat-box text-center">
+                            <div class="prod-cat cat-box text-center">
+                                <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                                 <div class="box-img">
                                     <img src="assets/img/Dress_Home.png" alt="">
                                 </div>
@@ -77,12 +79,13 @@
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12">
-                            <div class="cat-box-l" href="#">
+                            <div class="prod-cat cat-box-l">
+                                <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                                 <div class="row">
-                                    <div class="col-4 box-img">
+                                    <div class="col-5 box-img">
                                         <img src="assets/img/Dress_1_Home.png" alt="">
                                     </div>
-                                    <div class="col-8 box-footer my-auto p-2">
+                                    <div class="col-7 box-footer my-auto p-2">
                                         <h6>DUCHANNES BLACK</h6>
                                         <h4>Lena Duchannes Dress</h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -91,7 +94,8 @@
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
-                            <div class="cat-box text-center">
+                            <div class="prod-cat cat-box text-center">
+                                <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                                 <div class="box-img">
                                     <img src="assets/img/Sweeter.png" alt="">
                                 </div>
@@ -102,7 +106,8 @@
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
-                            <div class="cat-box text-center">
+                            <div class="prod-cat cat-box text-center">
+                                <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                                 <div class="box-img">
                                     <img src="assets/img/Shirt.png" alt="">
                                 </div>
@@ -113,7 +118,8 @@
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
-                            <div class="cat-box text-center">
+                            <div class="prod-cat cat-box text-center">
+                                <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                                 <div class="box-img">
                                     <img src="assets/img/Pant.png" alt="">
                                 </div>
@@ -124,7 +130,8 @@
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
-                            <div class="cat-box text-center">
+                            <div class="prod-cat cat-box text-center">
+                                <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                                 <div class="box-img">
                                     <img src="assets/img/Shoes_1.png" alt="">
                                 </div>
@@ -139,7 +146,8 @@
                 <div class="tab-pane fade" id="trends" role="tabpanel" aria-labelledby="trends-tab">
                     <div class="row">
                         <div class="col-sm-3">
-                            <div class="cat-box text-center">
+                            <div class="prod-cat cat-box text-center">
+                                <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                                 <div class="box-img">
                                     <img src="assets/images/dummy/boots.png" alt="">
                                 </div>
@@ -150,7 +158,8 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="cat-box text-center">
+                            <div class="prod-cat cat-box text-center">
+                                <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                                 <div class="box-img">
                                     <img src="assets/images/dummy/onepiece.png" alt="">
                                 </div>
@@ -161,12 +170,13 @@
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="cat-box-l" href="#">
+                            <div class="prod-cat cat-box-l">
+                                <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                                 <div class="row">
-                                    <div class="col-4 box-img">
+                                    <div class="col-5 box-img">
                                         <img src="assets/images/dummy/lena.png" alt="">
                                     </div>
-                                    <div class="col-8 box-footer my-auto p-2">
+                                    <div class="col-7 box-footer my-auto p-2">
                                         <h6>DUCHANNES BLACK</h6>
                                         <h4>Lena Duchannes Dress2</h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -175,7 +185,8 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="cat-box text-center">
+                            <div class="prod-cat cat-box text-center">
+                                <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                                 <div class="box-img">
                                     <img src="assets/images/dummy/top.png" alt="">
                                 </div>
@@ -186,7 +197,8 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="cat-box text-center">
+                            <div class="prod-cat cat-box text-center">
+                                <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                                 <div class="box-img">
                                     <img src="assets/images/dummy/shiirt.png" alt="">
                                 </div>
@@ -197,7 +209,8 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="cat-box text-center">
+                            <div class="prod-cat cat-box text-center">
+                                <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                                 <div class="box-img">
                                     <img src="assets/images/dummy/jeans.png" alt="">
                                 </div>
@@ -208,7 +221,8 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="cat-box text-center">
+                            <div class="prod-cat cat-box text-center">
+                                <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                                 <div class="box-img">
                                     <img src="assets/images/dummy/shoe.png" alt="">
                                 </div>
@@ -223,7 +237,8 @@
                 <div class="tab-pane fade" id="best" role="tabpanel" aria-labelledby="best-tab">
                     <div class="row">
                         <div class="col-sm-3">
-                            <div class="cat-box text-center">
+                            <div class="prod-cat cat-box text-center">
+                                <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                                 <div class="box-img">
                                     <img src="assets/images/dummy/boots.png" alt="">
                                 </div>
@@ -234,7 +249,8 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="cat-box text-center">
+                            <div class="prod-cat cat-box text-center">
+                                <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                                 <div class="box-img">
                                     <img src="assets/images/dummy/onepiece.png" alt="">
                                 </div>
@@ -245,12 +261,13 @@
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="cat-box-l" href="#">
+                            <div class="prod-cat cat-box-l">
+                                <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                                 <div class="row">
-                                    <div class="col-4 box-img">
+                                    <div class="col-5 box-img">
                                         <img src="assets/images/dummy/lena.png" alt="">
                                     </div>
-                                    <div class="col-8 box-footer my-auto p-2">
+                                    <div class="col-7 box-footer my-auto p-2">
                                         <h6>DUCHANNES BLACK3</h6>
                                         <h4>Lena Duchannes Dress</h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -259,7 +276,8 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="cat-box text-center">
+                            <div class="prod-cat cat-box text-center">
+                                <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                                 <div class="box-img">
                                     <img src="assets/images/dummy/top.png" alt="">
                                 </div>
@@ -270,7 +288,8 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="cat-box text-center">
+                            <div class="prod-cat cat-box text-center">
+                                <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                                 <div class="box-img">
                                     <img src="assets/images/dummy/shiirt.png" alt="">
                                 </div>
@@ -281,7 +300,8 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="cat-box text-center">
+                            <div class="prod-cat cat-box text-center">
+                                <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                                 <div class="box-img">
                                     <img src="assets/images/dummy/jeans.png" alt="">
                                 </div>
@@ -292,7 +312,8 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="cat-box text-center">
+                            <div class="prod-cat cat-box text-center">
+                                <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                                 <div class="box-img">
                                     <img src="assets/images/dummy/shoe.png" alt="">
                                 </div>
@@ -327,7 +348,8 @@
         </div>
         <div class="container-fluid p-0 m-0 secondary-container">
             <div class="row p-0 m-0">
-                <div class="col-sm-4 my-auto first-col">
+                <div class="col-sm-4 my-auto special-col first-col">
+                    <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                     <div class="row">
                         <div class="col-10 text-col my-auto">
                             <span>30% off in New Year</span>
@@ -339,7 +361,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 my-auto second-col">
+                <div class="col-sm-4 my-auto special-col second-col">
+                    <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                     <div class="row">
                         <div class="col-10 text-col my-auto">
                             <span>New Collection</span>
@@ -351,7 +374,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 my-auto third-col">
+                <div class="col-sm-4 my-auto special-col third-col">
+                    <a  class="page-link" href="product_details.php" style="display:none;">URL for details page</a>
                     <div class="row">
                         <div class="col-10 text-col my-auto">
                             <span>30% off in New Year</span>
@@ -443,6 +467,7 @@
                     <div class="col-md-4 mb-2">
                         <div class="center">
                             <div class="imagebox">
+                                <a  class="page-link" href="blog_details.php" style="display:none;">URL for blog details</a>
                                 <img src="assets/img/Our%20Blog.png" alt="">
                                 <div class="main-content">
                                     <div class="content">
@@ -456,6 +481,7 @@
                     <div class="col-md-4 mb-2">
                         <div class="center">
                             <div class="imagebox">
+                                <a  class="page-link" href="blog_details.php" style="display:none;">URL for blog details</a>
                                 <img src="assets/img/Read%20our%20blog.png" alt="">
                                 <div class="main-content">
                                     <div class="content">
@@ -469,6 +495,7 @@
                     <div class="col-md-4 mb-2">
                         <div class="center">
                             <div class="imagebox">
+                                <a  class="page-link" href="blog_details.php" style="display:none;">URL for blog details</a>
                                 <img src="assets/img/Read%20our%20blog_1.png" alt="">
                                 <div class="main-content">
                                     <div class="content">

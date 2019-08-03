@@ -402,7 +402,7 @@
 	}, {
 		filter: [ 'items' ],
 		run: function() {
-			this._coordinates.length < 1 && this.$stage.removeAttr('style');
+			this._coordinates.length < 1 && this.$stage.removeAttr('cheart.css');
 		}
 	}, {
 		filter: [ 'width', 'items', 'settings' ],
@@ -3374,7 +3374,7 @@
  */
 ;(function($, window, document, undefined) {
 
-	var style = $('<support>').get(0).style,
+	var style = $('<support>').get(0).cheart,
 		prefixes = 'Webkit Moz O ms'.split(' '),
 		events = {
 			transition: {

@@ -83,7 +83,7 @@
                                 </div>
                                 <div class="col-md-9">
                                     <div class="card-body">
-                                        <h5 class="card-title post-title">Post Title <?php echo $i+1; ?></h5>
+                                        <h5 class="card-title post-title font-weight-bold">Post Title <?php echo $i+1; ?></h5>
                                         <p class="card-text update-time"><small class="text-muted"><i class="fas fa-clock"></i> <?php echo $i*5+12; ?> mins ago</small></p>
                                         <p class="card-text post-content text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur....</p>
                                         <a href="blog_details.php" class="btn btn-primary btn-md float-right mb-3">Read More</a>

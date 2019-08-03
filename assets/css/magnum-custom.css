@@ -124,13 +124,15 @@ grey{
 }
 .wsmenu>.wsmenu-list>li>.navtext>span+span {
     color: #000000;
-    font-size: 14px;
+    /*font-size: 10px;*/
+    font-family: 'Cabin', sans-serif;
 }
 .smllogo {
     width: 16%;
 }
 .wsmenu{
     width: 84%;
+    border:none;
 }
 .top-span{
     height: 5px;
@@ -142,6 +144,9 @@ grey{
     position: absolute;
     top: 6px;
     right: 43px;
+}
+.headerwp.clearfix {
+    font-family: 'Roboto', sans-serif;
 }
 .headtoppart {
     background-color: #000000;
@@ -165,6 +170,7 @@ grey{
 }
 .address {
     color: #ffffff;
+    font-family: 'Roboto', sans-serif;
 }
 .address span {
     color: #ffffff;
@@ -323,6 +329,7 @@ a.nav-link:hover {
 
 .headerfull {
     border-bottom: 1px solid lightgrey;
+    text-transform: uppercase;
 }
 
 
@@ -403,6 +410,7 @@ section{
   right: 10%;
   text-align: center;
   width: 40%;
+    font-family: 'Cabin', sans-serif;
 }
 #main_carousel .slider-text h1{
 font-size: 5vw;
@@ -411,6 +419,7 @@ text-shadow: 1px 2px 0px #d5d5d5, 2px 4px 0px rgba(0, 0, 0, 0.2);
 }
 #main_carousel .slider-text p{
   font-size: 2vw;
+    font-family: 'Cabin', sans-serif;
 }
 #main_carousel .slider-text button{
   border-radius: 0px;
@@ -420,11 +429,16 @@ text-shadow: 1px 2px 0px #d5d5d5, 2px 4px 0px rgba(0, 0, 0, 0.2);
     font-weight: 800;
     color: #3329b1;
     margin-bottom: 25px;
+    font-size: 40px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
 }
 #our_product .nav-item a{
   text-transform: uppercase;
   color: black;
-  font-weight: 600;
+  font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+    /*font-size: 10px;*/
 }
 #our_product .nav-tabs {
   border-bottom: none;
@@ -458,9 +472,15 @@ text-shadow: 1px 2px 0px #d5d5d5, 2px 4px 0px rgba(0, 0, 0, 0.2);
 .cat-box .box-footer{
   padding-top:10px;
 }
+.cat-box .box-footer h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
 .cat-box p,.cat-box-l p {
-  font-size: 12px;
+  font-size: 11px;
   color: grey;
+    font-family: 'Roboto', sans-serif;
+    /*font-weight: lighter;*/
 }
 .cat-box-l img{
   height: 255px;
@@ -474,59 +494,75 @@ text-shadow: 1px 2px 0px #d5d5d5, 2px 4px 0px rgba(0, 0, 0, 0.2);
   background: grey;
 }
 #coll_banner .main-container .top-row{
-  min-height: 80vh;
+  min-height: 60vh;
 }
 #coll_banner .main-container .top-row .text-col {
   z-index: 1;
   padding: 15px;
 }
 #coll_banner .main-container .top-row .text-col h1{
-  font-size: 60px;
-  font-weight: 700;
+  font-size: 72px;
+    font-family: 'Cabin', sans-serif;
+  font-weight: bold;
   /* color: white; */
 }
 #coll_banner .main-container .top-row .text-col p.styled-text{
-  font-family: 'Kaushan Script', cursive;
+    font-family: 'Calling Heart Regular';
   font-size: 50px;
-  font-weight: 600;
-  color: yellow;
+  color: #ffdf00;
+    margin-bottom: -10px;
 }
 #coll_banner .main-container .top-row .text-col p.secondary-text{
   font-size: 14px;
   color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
 }
 #coll_banner .main-container .top-row .text-col button{
   background-color: black;
   color: grey;
-  font-weight: 600;
+  font-weight: bold;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 #coll_banner .main-container .top-row .text-col button:hover{
   color: white;
 }
 #coll_banner .main-container .top-row .img-col img{
-  height: 400px;
+  height: 100%;
   bottom: 0px;
   position: absolute;
   right: 0;
 }
 #coll_banner .secondary-container .row{
-  min-height: 300px;
+  min-height: 400px;
   background-color: lightgrey;
+}
+#coll_banner .secondary-container .row .col-sm-4:hover{
+    box-shadow: 0 0 10px grey;
+    z-index: 1;
+    cursor: pointer;
 }
 #coll_banner .secondary-container .row .text-col{
   padding-left: 40px;
   z-index: 1;
 }
 #coll_banner .secondary-container .row .text-col h4{
-  font-size: 50px;
-  font-weight: 800;
+  font-size: 70px;
+  font-weight: bold;
+    font-family: 'Cabin', sans-serif;
   /* text-transform: uppercase; */
 }
 #coll_banner .secondary-container .row .text-col span{
   font-size: 14px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: lighter;
+}
+#coll_banner .secondary-container .row .second-col span{
+    color: #fff;
 }
 #coll_banner .secondary-container .row .img-col img{
   right: 0;
@@ -544,12 +580,17 @@ text-shadow: 1px 2px 0px #d5d5d5, 2px 4px 0px rgba(0, 0, 0, 0.2);
 }
 #delivery_service .container-head  h1{
   font-size: 70px;
-  font-weight: 800;
+  font-weight: bold;
+    font-family: 'Cabin', sans-serif;
 }
+
 #delivery_service .container-head p{
   display: inline-block;
   width: 45%;
   font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+
 }
 
 /*#delivery_service i{*/
@@ -565,9 +606,15 @@ text-shadow: 1px 2px 0px #d5d5d5, 2px 4px 0px rgba(0, 0, 0, 0.2);
     margin-top: 20px;
 }
 #delivery_service .service .text h6 {
-    font-size: 23px;
-    font-weight: 800;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     text-transform: uppercase;
+}
+#delivery_service .service .text p{
+    font-family: 'Roboto', sans-serif;
+    /*font-weight: lighter;*/
+    font-size: 12px;
 }
 /* banner */
 #banner .banner-container{
@@ -606,7 +653,8 @@ text-shadow: 1px 2px 0px #d5d5d5, 2px 4px 0px rgba(0, 0, 0, 0.2);
 }
 /* blog */
 #blog .container-head h1 {
-    font-weight: 800;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
     font-size: 70px;
     margin-bottom: 40px;
 }
@@ -615,12 +663,19 @@ text-shadow: 1px 2px 0px #d5d5d5, 2px 4px 0px rgba(0, 0, 0, 0.2);
   object-fit: cover;
   align-self: center;
 }
+.blog-post-list .card{
+    border: none;
+}
 .imagebox{
     position: relative;
     width:100%;
     background-size: cover;
     border:2px solid #fff;
     overflow: hidden;
+    cursor: pointer;
+}
+.imagebox:hover{
+    box-shadow: 0 0 10px gray;
 }
 .imagebox img{
     width: 100%;
@@ -1130,6 +1185,7 @@ border: none;
 }
 
 /* Shared */
+
 .loginBtn {
     box-sizing: border-box;
     position: relative;
@@ -1140,9 +1196,10 @@ border: none;
     text-align: left;
     line-height: 34px;
     white-space: nowrap;
-    border-radius: 0.2em;
     font-size: 16px;
     color: #FFF;
+    box-shadow: 0 0 2px black;
+    border-radius: 0;
 }
 .loginBtn:before {
     content: "";
@@ -1231,4 +1288,5 @@ border: none;
     height: 27px;
     width: 27px;
     text-align: center;
+    background: rgba(0,0,0,.8);
 }

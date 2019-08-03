@@ -1,7 +1,12 @@
 <?php include('header.php') ?>
 
 <style type="text/css">
-
+    .btn-login{
+        background: white;
+        color: black;
+        border-radius: 0;
+        border-color: #ced4da;
+    }
 </style>
 <section id="checkout_ls">
     <div class="container mt-4">
@@ -19,7 +24,7 @@
                         <div class="form-group">
                             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                         </div>
-                        <a href="checkout_shipping.php" class="btn btn-primary">Submit</a>
+                        <a href="checkout_shipping.php" class="btn btn-primary btn-login">Login</a>
                     </form>
                 </div>
                 <div class="social-logins mt-3">

@@ -5,6 +5,9 @@
     .wsmenu>.wsmenu-list>li>.navtext>span+span:hover,.wsmenu>.wsmenu-list>li>.navtext>span+span:active {
         border-bottom: 2px solid darkblue;
     }
+    .wsmenu::-webkit-scrollbar{
+        display: none;
+    }
     div.popover {
         z-index:10002 ;
     }
@@ -15,11 +18,54 @@
          height: 60px;
         background-color: transparent;
     }
+    .login-btn{
+        width: 50%;
+        border-radius: 20px;
+        background: #9d9cfa;
+        border: none;
+        color: black;
+        font-weight: bold;
+    }
+    .signup-btn{
+        width: 90%;
+        border-radius: 20px;
+        color: black;
+        background: #9a98f9;
+        border: navajowhite;
+    }
+    .btn-login-signup{
+        border-radius: 20px;
+        padding: 6px 50px;
+        background: lightgray;
+        color: black;
+        border-color: gray;
+    }
+    .wsmobileheader .wssearch i {
+        font-size: 18px;
+        color: #000000;
+    }
+    .wsmenu>.wsmenu-list>.wsshopmyaccount>a i {
+        color: #000000;
+    }
+    .cart-badge2 {
+        position: absolute;
+        top: 6px;
+        right: 20px;
+    }
+    .pc-nav-user{
+        padding: 0 14px 0 21px !important;
+        border-left: 1px solid;
+        border-right: 1px solid;
+    }
+    .pc-nav-cart{
+        padding: 0 14px 0 21px !important;
+        border-left: 1px solid;
+    }
 </style>
 <!-- Mobile Header -->
 <div class="wsmobileheader clearfix">
     <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
-    <span class="smllogo"><img src="assets/images/logo.jpg" width="150" alt="" /></span>
+    <span class="smllogo"><img src="assets/images/logo.png" width="150" alt="" /></span>
     <div class="wssearch clearfix">
 <!--        <i class="wsclosesearch fas fa-times"></i>-->
         <a href="shopping_cart.php"><i class="fas fa-shopping-basket mobile-basket"></i> <em class="badge badge-info cart-badge">8</em></a>
@@ -49,11 +95,11 @@
         <nav class="wsmenu clearfix">
             <ul class="wsmenu-list">
 
-                <li class="wscarticon clearfix not-mobile">
-                    <a href="shopping_cart.php"><i class="fas fa-shopping-basket"></i> <em class="roundpoint">8</em><span class="hidetxt">Shopping
-                    Cart</span></a>
-                    <li aria-haspopup="true" class="wsshopmyaccount not-mobile"><a href="#" class="login-pop"><i class="fas fa-user"></i></a>
-<!--                    <a class="nav-link login-pop" href="#"><i class="fas fa-user"></i></a>-->
+
+                <li aria-haspopup="true" class="wsshopmyaccount not-mobile">
+                    <a href="#" class="login-pop pc-nav-user"><i class="fas fa-user"></i></a>
+                    <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+                    <!--                    <a class="nav-link login-pop" href="#"><i class="fas fa-user"></i></a>-->
                     <div class="login-container" style="display: none;">
                         <ul class='login-popper'>
                             <li><a href='#' class="login_btn">Login</a></li>
@@ -75,7 +121,10 @@
                             $('#signup').modal('show');
                         });
                     </script>
-                    </li>
+                </li>
+                <li aria-haspopup="true" class="wsshopmyaccount not-mobile">
+                    <a href="shopping_cart.php" class="pc-nav-cart">
+                        <i class="fas fa-shopping-basket"></i> <em class="badge badge-info cart-badge2">8</em></a>
                 </li>
                 <li class="float-right"> <a href="contact_us.php" class="navtext single-nav"><span class="top-span"></span> <span>Contact Us</span></a> </li>
                 <li class="float-right"> <a href="blog.php" class="navtext single-nav"><span class="top-span"></span> <span>Blog</span></a> </li>
@@ -1092,7 +1141,7 @@
                                 </div>
                                 <div class="text-center">
                                     <p>Forgot Password</p>
-                                    <button class="btn btn-primary" style="width: 50%;">Submit</button>
+                                    <button class="btn btn-primary login-btn" style="">Log In</button>
                                     <p><a href="#" data-toggle="modal" data-target="#signup" data-dismiss="modal">Signup</a> | <a href="forgot_password.php">Forgot Password</a></p>
                                 </div>
                             </form>
@@ -1137,7 +1186,7 @@
                                 </div>
                                 <div class="text-center">
                                     <p>Password must be a combination of numbers, letters and special chareacters.</p>
-                                    <button class="btn btn-primary" style="width: 50%;">Submit</button>
+                                    <button class="btn btn-primary signup-btn" style="">Submit</button>
                                     <p><a href="#"  data-toggle="modal" data-target="#login" data-dismiss="modal">Login</a> | <a href="forgot_password.php">Forgot Password</a></p>
                                 </div>
                             </form>

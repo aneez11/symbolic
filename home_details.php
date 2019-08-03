@@ -1,6 +1,8 @@
 <?php include('header.php') ?>
 <style media="screen">
-
+    img{
+        max-height: 100%;
+    }
 </style>
 <section id="breadcrumbs">
   <div class="container">
@@ -136,7 +138,7 @@
             <img src="assets/images/dummy/suit.jpeg" alt="">
           </div>
           <div class="col-md-6">
-            <h4>Exclusive Men's Collection</h4>
+            <h4 class="text-uppercase"><span class="font-weight-bold">Exclusive Men's</span> Collection</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
@@ -157,7 +159,7 @@
             <div class="text">
               <h5 class="item-name">Product <?php echo $i; ?></h5>
               <p class="item-sub-name">Product category <?php echo $i; ?></p>
-              <p class="item-price">Rs. 1,000.00</p>
+              <p class="item-price">Rs. <?php echo $i*432; ?>.00</p>
               <ul class="item-rating">
                 <li> <i class="fas fa-star"></i> </li>
                 <li> <i class="fas fa-star"></i> </li>

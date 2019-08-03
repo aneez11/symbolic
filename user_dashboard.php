@@ -283,12 +283,23 @@
                 <?php for ($i=0; $i < 5; $i++) {  ?>
                   <tr>
                     <th scope="row"><?php echo $i+1; ?></th>
-                    <td><img src="assets/images/products/<?php echo $i+1; ?>.png" alt=""></td>
+                    <td>
+                        <div style="display:flex; flex-wrap: nowrap; justify-content: center">
+                            <div style="width: 100px; background: lightgray; padding: 5px;">
+                                <img src="assets/images/products/<?php echo $i+1; ?>.png" alt="">
+                            </div>
+                            <div style="margin-top: 30px; margin-left: 30px; text-align: left;">
+                                <h6 class="font-weight-bold">Product <?php echo $i+1; ?></h6>
+                                <p>Qty: <?php echo $i+5; ?></p>
+                            </div>
+                        </div>
+                    </td>
                     <td>Rs. 3,500.00</td>
-                    <td style="display:inline-grid; padding-top:30px;">
-                      <button style="" type="submit" class="btn btn-primary">Move to Cart</button>
-                      <!-- <button style="" type="submit" class="btn btn-warning">Remove from Wishlist</button> -->
-                      <a href="#">Remove from Wishlist</a>
+                    <td>
+                      <div style="display:inline-grid; padding-top:30px;">
+                          <button style="" type="submit" class="btn btn-primary">Move to Cart</button>
+                          <a href="#">Remove from Wishlist</a>
+                      </div>
                     </td>
                   </tr>
                 <?php  } ?>
