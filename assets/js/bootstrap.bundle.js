@@ -1286,7 +1286,7 @@
       var dimension = this._getDimension();
 
       $(this._element).removeClass(ClassName$3.COLLAPSE).addClass(ClassName$3.COLLAPSING);
-      this._element.cheart[dimension] = 0;
+      this._element.style[dimension] = 0;
 
       if (this._triggerArray.length) {
         $(this._triggerArray).removeClass(ClassName$3.COLLAPSED).attr('aria-expanded', true);
@@ -1296,7 +1296,7 @@
 
       var complete = function complete() {
         $(_this._element).removeClass(ClassName$3.COLLAPSING).addClass(ClassName$3.COLLAPSE).addClass(ClassName$3.SHOW);
-        _this._element.cheart[dimension] = '';
+        _this._element.style[dimension] = '';
 
         _this.setTransitioning(false);
 
@@ -1307,7 +1307,7 @@
       var scrollSize = "scroll" + capitalizedDimension;
       var transitionDuration = Util.getTransitionDurationFromElement(this._element);
       $(this._element).one(Util.TRANSITION_END, complete).emulateTransitionEnd(transitionDuration);
-      this._element.cheart[dimension] = this._element[scrollSize] + "px";
+      this._element.style[dimension] = this._element[scrollSize] + "px";
     };
 
     _proto.hide = function hide() {
@@ -1326,7 +1326,7 @@
 
       var dimension = this._getDimension();
 
-      this._element.cheart[dimension] = this._element.getBoundingClientRect()[dimension] + "px";
+      this._element.style[dimension] = this._element.getBoundingClientRect()[dimension] + "px";
       Util.reflow(this._element);
       $(this._element).addClass(ClassName$3.COLLAPSING).removeClass(ClassName$3.COLLAPSE).removeClass(ClassName$3.SHOW);
       var triggerArrayLength = this._triggerArray.length;
@@ -1354,7 +1354,7 @@
         $(_this2._element).removeClass(ClassName$3.COLLAPSING).addClass(ClassName$3.COLLAPSE).trigger(Event$3.HIDDEN);
       };
 
-      this._element.cheart[dimension] = '';
+      this._element.style[dimension] = '';
       var transitionDuration = Util.getTransitionDurationFromElement(this._element);
       $(this._element).one(Util.TRANSITION_END, complete).emulateTransitionEnd(transitionDuration);
     };
@@ -2494,13 +2494,13 @@
     // touch DOM only if `applyStyle` modifier is enabled
     if (isModifierEnabled(this.modifiers, 'applyStyle')) {
       this.popper.removeAttribute('x-placement');
-      this.popper.cheart.position = '';
-      this.popper.cheart.top = '';
-      this.popper.cheart.left = '';
-      this.popper.cheart.right = '';
-      this.popper.cheart.bottom = '';
-      this.popper.cheart.willChange = '';
-      this.popper.cheart[getSupportedPropertyName('transform')] = '';
+      this.popper.style.position = '';
+      this.popper.style.top = '';
+      this.popper.style.left = '';
+      this.popper.style.right = '';
+      this.popper.style.bottom = '';
+      this.popper.style.willChange = '';
+      this.popper.style[getSupportedPropertyName('transform')] = '';
     }
 
     this.disableEventListeners();
@@ -2629,7 +2629,7 @@
       if (['width', 'height', 'top', 'right', 'bottom', 'left'].indexOf(prop) !== -1 && isNumeric(styles[prop])) {
         unit = 'px';
       }
-      element.cheart[prop] = styles[prop] + unit;
+      element.style[prop] = styles[prop] + unit;
     });
   }
 
@@ -3357,7 +3357,7 @@
     // resets the popper's position so that the document size can be calculated excluding
     // the size of the popper element itself
     var transformProp = getSupportedPropertyName('transform');
-    var popperStyles = data.instance.popper.cheart; // assignment to help minification
+    var popperStyles = data.instance.popper.style; // assignment to help minification
     var top = popperStyles.top,
         left = popperStyles.left,
         transform = popperStyles[transformProp];
@@ -4827,7 +4827,7 @@
         document.body.appendChild(this._element);
       }
 
-      this._element.cheart.display = 'block';
+      this._element.style.display = 'block';
 
       this._element.removeAttribute('aria-hidden');
 
@@ -4912,7 +4912,7 @@
     _proto._hideModal = function _hideModal() {
       var _this7 = this;
 
-      this._element.cheart.display = 'none';
+      this._element.style.display = 'none';
 
       this._element.setAttribute('aria-hidden', true);
 
@@ -5017,17 +5017,17 @@
       var isModalOverflowing = this._element.scrollHeight > document.documentElement.clientHeight;
 
       if (!this._isBodyOverflowing && isModalOverflowing) {
-        this._element.cheart.paddingLeft = this._scrollbarWidth + "px";
+        this._element.style.paddingLeft = this._scrollbarWidth + "px";
       }
 
       if (this._isBodyOverflowing && !isModalOverflowing) {
-        this._element.cheart.paddingRight = this._scrollbarWidth + "px";
+        this._element.style.paddingRight = this._scrollbarWidth + "px";
       }
     };
 
     _proto._resetAdjustments = function _resetAdjustments() {
-      this._element.cheart.paddingLeft = '';
-      this._element.cheart.paddingRight = '';
+      this._element.style.paddingLeft = '';
+      this._element.style.paddingRight = '';
     };
 
     _proto._checkScrollbar = function _checkScrollbar() {
@@ -5046,13 +5046,13 @@
         var stickyContent = [].slice.call(document.querySelectorAll(Selector$5.STICKY_CONTENT)); // Adjust fixed content padding
 
         $(fixedContent).each(function (index, element) {
-          var actualPadding = element.cheart.paddingRight;
+          var actualPadding = element.style.paddingRight;
           var calculatedPadding = $(element).css('padding-right');
           $(element).data('padding-right', actualPadding).css('padding-right', parseFloat(calculatedPadding) + _this9._scrollbarWidth + "px");
         }); // Adjust sticky content margin
 
         $(stickyContent).each(function (index, element) {
-          var actualMargin = element.cheart.marginRight;
+          var actualMargin = element.style.marginRight;
           var calculatedMargin = $(element).css('margin-right');
           $(element).data('margin-right', actualMargin).css('margin-right', parseFloat(calculatedMargin) - _this9._scrollbarWidth + "px");
         }); // Adjust body padding
@@ -5071,7 +5071,7 @@
       $(fixedContent).each(function (index, element) {
         var padding = $(element).data('padding-right');
         $(element).removeData('padding-right');
-        element.cheart.paddingRight = padding ? padding : '';
+        element.style.paddingRight = padding ? padding : '';
       }); // Restore sticky content
 
       var elements = [].slice.call(document.querySelectorAll("" + Selector$5.STICKY_CONTENT));

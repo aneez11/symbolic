@@ -12,10 +12,10 @@
         z-index:10002 ;
     }
     .wsmobileheader .wssearch.wsopensearch {
-         left: unset;
-         right: 0;
-         width: auto;
-         height: 60px;
+        left: unset;
+        right: 0;
+        width: auto;
+        height: 60px;
         background-color: transparent;
     }
     .login-btn{
@@ -49,8 +49,8 @@
     }
     .cart-badge2 {
         position: absolute;
-        top: 6px;
-        right: 20px;
+        top: 10px;
+        right: 14px;
     }
     .pc-nav-user{
         padding: 0 14px 0 21px !important;
@@ -67,7 +67,7 @@
     <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
     <span class="smllogo"><img src="assets/images/logo.png" width="150" alt="" /></span>
     <div class="wssearch clearfix">
-<!--        <i class="wsclosesearch fas fa-times"></i>-->
+        <!--        <i class="wsclosesearch fas fa-times"></i>-->
         <a href="shopping_cart.php"><i class="fas fa-shopping-basket mobile-basket"></i> <em class="badge badge-info cart-badge">8</em></a>
         <a href="#" class="login-pop"><i class="fas fa-user"></i></a>
     </div>
@@ -98,7 +98,6 @@
 
                 <li aria-haspopup="true" class="wsshopmyaccount not-mobile">
                     <a href="#" class="login-pop pc-nav-user"><i class="fas fa-user"></i></a>
-                    <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
                     <!--                    <a class="nav-link login-pop" href="#"><i class="fas fa-user"></i></a>-->
                     <div class="login-container" style="display: none;">
                         <ul class='login-popper'>
@@ -1067,48 +1066,48 @@
                     </div>
                 </li>
 
-<!--                <li class="float-right" style="float: right;" aria-haspopup="true"><a href="#" class="navtext"><span class="top-span"></span> <span>Half Menu</span></a>-->
-<!--                    <div class="wsmegamenu clearfix halfmenu">-->
-<!--                        <div class="container-fluid">-->
-<!--                            <div class="row">-->
-<!--                                <div class="col-lg-6 col-md-12">-->
-<!--                                    <ul class="wstliststy06 clearfix">-->
-<!--                                        <li class="wstheading clearfix">Windows Products</li>-->
-<!--                                        <li><a href="#">List Products 01 </a> <span class="wstmenutag redtag">Popular</span></li>-->
-<!--                                        <li><a href="#">List Products 02</a></li>-->
-<!--                                        <li><a href="#">List Products 03</a></li>-->
-<!--                                        <li><a href="#">List Products 04</a> </li>-->
-<!--                                        <li><a href="#">List Products 05</a> </li>-->
-<!--                                        <li><a href="#">List Products 06</a></li>-->
-<!--                                    </ul>-->
-<!--                                </div>-->
-<!--                                <div class="col-lg-6 col-md-12">-->
-<!--                                    <ul class="wstliststy06 clearfix">-->
-<!--                                        <li class="wstheading clearfix">Apple More Products</li>-->
-<!--                                        <li><a href="#">List Products 07 </a></li>-->
-<!--                                        <li><a href="#">List Products 08</a></li>-->
-<!--                                        <li><a href="#">List Products 09</a></li>-->
-<!--                                        <li><a href="#">List Products 10</a> </li>-->
-<!--                                        <li><a href="#">List Products 11 </a></li>-->
-<!--                                        <li><a href="#">List Products 12</a></li>-->
-<!--                                    </ul>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </li>-->
+                <!--                <li class="float-right" style="float: right;" aria-haspopup="true"><a href="#" class="navtext"><span class="top-span"></span> <span>Half Menu</span></a>-->
+                <!--                    <div class="wsmegamenu clearfix halfmenu">-->
+                <!--                        <div class="container-fluid">-->
+                <!--                            <div class="row">-->
+                <!--                                <div class="col-lg-6 col-md-12">-->
+                <!--                                    <ul class="wstliststy06 clearfix">-->
+                <!--                                        <li class="wstheading clearfix">Windows Products</li>-->
+                <!--                                        <li><a href="#">List Products 01 </a> <span class="wstmenutag redtag">Popular</span></li>-->
+                <!--                                        <li><a href="#">List Products 02</a></li>-->
+                <!--                                        <li><a href="#">List Products 03</a></li>-->
+                <!--                                        <li><a href="#">List Products 04</a> </li>-->
+                <!--                                        <li><a href="#">List Products 05</a> </li>-->
+                <!--                                        <li><a href="#">List Products 06</a></li>-->
+                <!--                                    </ul>-->
+                <!--                                </div>-->
+                <!--                                <div class="col-lg-6 col-md-12">-->
+                <!--                                    <ul class="wstliststy06 clearfix">-->
+                <!--                                        <li class="wstheading clearfix">Apple More Products</li>-->
+                <!--                                        <li><a href="#">List Products 07 </a></li>-->
+                <!--                                        <li><a href="#">List Products 08</a></li>-->
+                <!--                                        <li><a href="#">List Products 09</a></li>-->
+                <!--                                        <li><a href="#">List Products 10</a> </li>-->
+                <!--                                        <li><a href="#">List Products 11 </a></li>-->
+                <!--                                        <li><a href="#">List Products 12</a></li>-->
+                <!--                                    </ul>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+                <!--                        </div>-->
+                <!--                    </div>-->
+                <!--                </li>-->
                 <li class="float-right"> <a href="index.php" class="navtext single-nav"><span class="top-span"></span> <span>Home</span></a> </li>
 
 
                 <!--                <li aria-haspopup="true" class="wsshopmyaccount"><a href="#"><i class="fas fa-align-justify"></i>My&nbsp;Account</a>-->
-<!--                    <ul class="sub-menu">-->
-<!--                        <li><a href="#"><i class="fas fa-user-tie"></i>View Profile</a></li>-->
-<!--                        <li><a href="#"><i class="fas fa-heart"></i>My Wishlist</a></li>-->
-<!--                        <li><a href="#"><i class="fas fa-bell"></i>Notification</a></li>-->
-<!--                        <li><a href="#"><i class="fas fa-question-circle"></i>Help Center</a></li>-->
-<!--                        <li><a href="#"><i class="fas fa-sign-out-alt"></i>Logout</a></li>-->
-<!--                    </ul>-->
-<!--                </li>-->
+                <!--                    <ul class="sub-menu">-->
+                <!--                        <li><a href="#"><i class="fas fa-user-tie"></i>View Profile</a></li>-->
+                <!--                        <li><a href="#"><i class="fas fa-heart"></i>My Wishlist</a></li>-->
+                <!--                        <li><a href="#"><i class="fas fa-bell"></i>Notification</a></li>-->
+                <!--                        <li><a href="#"><i class="fas fa-question-circle"></i>Help Center</a></li>-->
+                <!--                        <li><a href="#"><i class="fas fa-sign-out-alt"></i>Logout</a></li>-->
+                <!--                    </ul>-->
+                <!--                </li>-->
 
 
             </ul>

@@ -18,9 +18,9 @@
                         </div>
                         <button type="submit" class="btn btn-danger">Send Password reset link</button>
                     </form>
+                </div>
             </div>
         </div>
-    </div>
 </section>
 
 <?php include('footer.php') ?>

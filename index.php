@@ -16,7 +16,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/img/banner.png" class="d-block w-100" alt="...">
+                        <img src="assets/images/9.jpg" class="d-block w-100" alt="...">
                         <div class="slider-text">
                             <h1>Whats in your Closet!!</h1>
                             <p class="">Fii it up in this summer sale!</p>
@@ -24,7 +24,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/img/banner.png" class="d-block w-100" alt="...">
+                        <img src="assets/images/5.jpg" class="d-block w-100" alt="...">
                         <div class="slider-text">
                             <h1>SUMMER SALE 2019</h1>
                             <p class="">Lots of gifts and vouchers</p>
@@ -399,7 +399,7 @@
             <div class="row text-center container-body">
                 <div class="col-md-3 col-sm-6col-6 col-6 service">
                     <div class="service-image">
-<!--                        <i class="fas fa-tshirt"></i>-->
+                        <!--                        <i class="fas fa-tshirt"></i>-->
                         <img src="assets/img/High%20Quality.png">
                     </div>
                     <div class="text">
@@ -409,7 +409,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6col-6 col-6 service">
                     <div class="service-image">
-<!--                        <i class="fas fa-truck"></i>-->
+                        <!--                        <i class="fas fa-truck"></i>-->
                         <img src="assets/img/all%20nepal%20Delivery.png">
                     </div>
                     <div class="text">
@@ -419,7 +419,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6col-6 col-6 service">
                     <div class="service-image">
-<!--                        <i class="fas fa-money-bill-wave"></i>-->
+                        <!--                        <i class="fas fa-money-bill-wave"></i>-->
                         <img src="assets/img/Safe%20Payment_1.png">
                     </div>
                     <div class="text">
@@ -429,7 +429,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6col-6 col-6 service">
                     <div class="service-image">
-<!--                        <i class="fas fa-percent"></i>-->
+                        <!--                        <i class="fas fa-percent"></i>-->
                         <img src="assets/img/Major%20Discount.png">
                     </div>
                     <div class="text">

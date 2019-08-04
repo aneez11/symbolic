@@ -47,15 +47,15 @@
                         <tbody>
                         <?php
                         for ($i = 0; $i<3; $i++) {
-                        ?>
-                        <tr>
-                            <td width="30%" class="text-center"><img src="assets/images/products/<?php echo $i+3; ?>.png"></td>
-                            <td>
-                                <p class="mb-0"><b><a href="#">Login/Signup</a></b></p>
-                                <p><small>Qty: 1</small></p>
-                            </td>
-                            <td class="text-right"><b>Rs. 1200.00</b></td>
-                        </tr>
+                            ?>
+                            <tr>
+                                <td width="30%" class="text-center"><img src="assets/images/products/<?php echo $i+3; ?>.png"></td>
+                                <td>
+                                    <p class="mb-0"><b><a href="#">Login/Signup</a></b></p>
+                                    <p><small>Qty: 1</small></p>
+                                </td>
+                                <td class="text-right"><b>Rs. 1200.00</b></td>
+                            </tr>
                             <?php
                         }
                         ?>
@@ -64,18 +64,18 @@
                 <div class="order-price-table">
                     <table class="table table-borderless table-sm" style="width: 100%;">
                         <tbody>
-                            <tr>
-                                <th colspan="4">Cart Subtotal</th>
-                                <td class="text-right"><b>Rs. 2000.00</b></td>
-                            </tr>
-                            <tr>
-                                <th colspan="4">Shipping</th>
-                                <td class="text-right"><b>Rs. 0.00</b></td>
-                            </tr>
-                            <tr class="total">
-                                <th colspan="4"><b>Order Total</b></th>
-                                <td class="text-right"><b>Rs. 2000.00</b></td>
-                            </tr>
+                        <tr>
+                            <th colspan="4">Cart Subtotal</th>
+                            <td class="text-right"><b>Rs. 2000.00</b></td>
+                        </tr>
+                        <tr>
+                            <th colspan="4">Shipping</th>
+                            <td class="text-right"><b>Rs. 0.00</b></td>
+                        </tr>
+                        <tr class="total">
+                            <th colspan="4"><b>Order Total</b></th>
+                            <td class="text-right"><b>Rs. 2000.00</b></td>
+                        </tr>
                     </table>
                 </div>
             </div>

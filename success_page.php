@@ -6,7 +6,7 @@
     <div class="thanks">
         <img src="assets/images/hands.png" alt="">
         <h1>Thank you for your purchase !</h1>
-        <h3 class="text-danger">We are connected</h3>
+        <h3 class="text-danger">We are conected</h3>
     </div>
       <div class="order-list text-left mt-5">
           <h6>Your Order Number ins:0000000</h6>
